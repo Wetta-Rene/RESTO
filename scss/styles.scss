@@ -3,7 +3,7 @@ $color-texte: #ffff00;
 $background-color-header-footer: #008000;
 $background-page: #EEEEEE;
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {
+//@media (max-width: 576px) {}
   body {
     width: 98%;
       margin: auto;
@@ -17,6 +17,7 @@ $background-page: #EEEEEE;
     padding: 5%;
     text-align: center;
     font-size: 3em;
+    margin-bottom: 2%;
   }
     
     #contenuPage{
@@ -33,18 +34,16 @@ $background-page: #EEEEEE;
     }
     .menu_contenuPage{
         display: flex;
-        width: 40%;
+        width: 46%;
+        padding: 2%;
+        justify-content: space-around;
         img{
-            max-width: 100%;
+            max-width: 90%
         }
     }
-    .menu_contenuPage:nth-child(2),.menu_contenuPage:nth-child(4),.menu_contenuPage:nth-child(6),.menu_contenuPage:nth-child(8){
-        flex-basis: 50%;
-        padding-left: 10%;
-        align-items: center;
-    }
+
   #contenuFooter{
-        font-size: 2em;
+        font-size: 1.5em;
         display: flex;
         justify-content: space-around;
         background-color: $background-color-header-footer;
@@ -61,8 +60,8 @@ $background-page: #EEEEEE;
   #contenaireBoutonProchainement{
         width: 100%;
         text-align: center;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
     #bouton_prochainement{
             width: 30%;
@@ -116,6 +115,7 @@ $background-page: #EEEEEE;
     font-size: 1.5em;
     justify-content: space-around;
 }
+
 .element-detailPageMenuSeul:nth-child(1),.element-detailPageMenuSeul:nth-child(3),.element-detailPageMenuSeul:nth-child(5),.element-detailPageMenuSeul:nth-child(7){
     flex-basis: 80%;
     display: flex;
@@ -123,7 +123,7 @@ $background-page: #EEEEEE;
     
 .element3-detailPageMenuSeul{
     display: flex;
-    flex-basis: 90%;
+    flex-basis: 100%;
 }
     #basdepagemenu {
         text-align: center;
@@ -153,24 +153,46 @@ $background-page: #EEEEEE;
 .colorMenuChic-partie3{
     color: #5A2FC0;
 }
+//////////////other media//////////////////
 
 
-}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   body {
-    width: 80%;
+    width: 20%;
 }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   body {
-    width: 80%;
-}
-}
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  body {
-    width: 80%;
+    width: 40%;
+    margin: auto;
+    font-size: 16px;
+    background-color: $background-page;
+  }
+    .menu_contenuPage{
+        display: flex;
+        width: 48%;
+        padding: 1%;
+        justify-content: space-around;
+        background-color: red;
+            transform: scale(1);
+            transition-property: transform;
+            transition-duration: 400ms;
+            &:hover {
+                transform: scale(1.05);
+                background-color: aliceblue;
+                opacity: 1;
+            }
+        img{
+            max-width: 90%
+ 
+        }
     }
+
+    
+
+    
+    
+    
 }
