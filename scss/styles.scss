@@ -1,12 +1,14 @@
 //Définition variables globale //
 $color-texte: #ffff00;
 $background-color-header-footer: #008000;
+$background-page: #EEEEEE;
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   body {
     width: 98%;
       margin: auto;
     font-size: 10px;
+    background-color: $background-page;
   }
     
   header {
@@ -14,7 +16,7 @@ $background-color-header-footer: #008000;
     background-color: $background-color-header-footer;
     padding: 5%;
     text-align: center;
-      font-size: 3em;
+    font-size: 3em;
   }
     
     #contenuPage{
@@ -23,7 +25,7 @@ $background-color-header-footer: #008000;
         text-align: center;
         flex-wrap: wrap;
         font-size: 3em;
-        background-color: #EEEEEE;
+        background-color: $background-page;
     }
     #contenuPage a{
         text-decoration: none;
@@ -31,13 +33,13 @@ $background-color-header-footer: #008000;
     }
     .menu_contenuPage{
         display: flex;
-        width: 30%;
+        width: 40%;
         img{
             max-width: 100%;
         }
     }
     .menu_contenuPage:nth-child(2),.menu_contenuPage:nth-child(4),.menu_contenuPage:nth-child(6),.menu_contenuPage:nth-child(8){
-        flex-basis: 60%;
+        flex-basis: 50%;
         padding-left: 10%;
         align-items: center;
     }
