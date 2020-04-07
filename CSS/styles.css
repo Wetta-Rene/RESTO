@@ -128,20 +128,29 @@
   /* line 142, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageMentions h3 {
     text-align: center;
-    font-size: 2em; } }
+    font-size: 2em; }
+  /* line 147, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .colorMenuChic-partie1 {
+    color: #B75D1E; }
+  /* line 150, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .colorMenuChic-partie2 {
+    color: #935087; }
+  /* line 153, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .colorMenuChic-partie3 {
+    color: #5A2FC0; } }
 
 @media (min-width: 768px) {
-  /* line 155, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  body {
-    width: 80%; } }
-
-@media (min-width: 992px) {
   /* line 161, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 80%; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   /* line 167, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  body {
+    width: 80%; } }
+
+@media (min-width: 1200px) {
+  /* line 173, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 80%; } }
 
