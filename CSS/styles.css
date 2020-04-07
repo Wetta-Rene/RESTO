@@ -1,157 +1,193 @@
-@media (max-width: 576px) {
-  /* line 7, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  body {
-    width: 98%;
-    margin: auto;
-    font-size: 10px;
-    background-color: #EEEEEE; }
-  /* line 14, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  header {
-    color: #ffff00;
-    background-color: #008000;
-    padding: 5%;
-    text-align: center;
-    font-size: 3em; }
-  /* line 22, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenuPage {
-    padding: 1%;
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    font-size: 3em;
-    background-color: #EEEEEE; }
-  /* line 30, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenuPage a {
+/* line 7, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+body {
+  width: 98%;
+  margin: auto;
+  font-size: 10px;
+  background-color: #EEEEEE; }
+
+/* line 14, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+header {
+  color: #ffff00;
+  background-color: #008000;
+  padding: 5%;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 2%; }
+
+/* line 23, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenuPage {
+  padding: 1%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 3em;
+  background-color: #EEEEEE; }
+
+/* line 31, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenuPage a {
+  text-decoration: none;
+  color: #008000; }
+
+/* line 35, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.menu_contenuPage {
+  display: flex;
+  width: 46%;
+  padding: 2%;
+  justify-content: space-around; }
+  /* line 40, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .menu_contenuPage img {
+    max-width: 90%; }
+
+/* line 45, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenuFooter {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  background-color: #008000; }
+  /* line 50, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #contenuFooter a {
     text-decoration: none;
-    color: #008000; }
-  /* line 34, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .menu_contenuPage {
-    display: flex;
-    width: 40%; }
-    /* line 37, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    .menu_contenuPage img {
-      max-width: 100%; }
-  /* line 41, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .menu_contenuPage:nth-child(2), .menu_contenuPage:nth-child(4), .menu_contenuPage:nth-child(6), .menu_contenuPage:nth-child(8) {
-    flex-basis: 50%;
-    padding-left: 10%;
-    align-items: center; }
-  /* line 46, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenuFooter {
-    font-size: 2em;
-    display: flex;
-    justify-content: space-around;
-    background-color: #008000; }
-    /* line 51, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    #contenuFooter a {
-      text-decoration: none;
-      color: #ffff00; }
-  /* line 56, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .elementFooter {
-    flex-basis: 30%;
-    text-align: center; }
-  /* line 61, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenaireBoutonProchainement {
-    width: 100%;
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%; }
-  /* line 67, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #bouton_prochainement {
-    width: 30%;
-    padding: 1%;
-    margin: auto;
-    text-align: center;
-    background-color: #008000;
-    border-radius: 5%;
     color: #ffff00; }
-  /* line 77, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #hautdepagemenu {
-    width: 100%;
-    text-align: center;
-    font-size: 0.8em; }
-    /* line 81, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    #hautdepagemenu img {
-      width: 10%; }
-    /* line 84, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    #hautdepagemenu .lienRetourAccueil {
-      font-size: 2em; }
-      /* line 87, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-      #hautdepagemenu .lienRetourAccueil a {
-        text-decoration: none;
-        color: #008000; }
-  /* line 93, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  h1 {
-    text-align: center;
+
+/* line 55, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.elementFooter {
+  flex-basis: 30%;
+  text-align: center; }
+
+/* line 60, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenaireBoutonProchainement {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+/* line 66, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#bouton_prochainement {
+  width: 30%;
+  padding: 1%;
+  margin: auto;
+  text-align: center;
+  background-color: #008000;
+  border-radius: 5%;
+  color: #ffff00; }
+
+/* line 76, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#hautdepagemenu {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em; }
+  /* line 80, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #hautdepagemenu img {
+    width: 10%; }
+  /* line 83, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #hautdepagemenu .lienRetourAccueil {
     font-size: 2em; }
-  /* line 97, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .contenaireTitre-detailPageMenuSeul {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 3%;
-    justify-content: space-around;
-    font-size: 1.8em; }
-  /* line 105, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .element_contenaireTitre-detailPageMenuSeul {
-    flex-basis: 33%; }
-  /* line 108, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .element_contenaireTitre-detailPageMenuSeul img {
-    max-width: 60%; }
-  /* line 113, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .contenaire1-detailPageMenuSeul, .contenaire2-detailPageMenuSeul, .contenaire3-detailPageMenuSeul {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.5em;
-    justify-content: space-around; }
-  /* line 119, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .element-detailPageMenuSeul:nth-child(1), .element-detailPageMenuSeul:nth-child(3), .element-detailPageMenuSeul:nth-child(5), .element-detailPageMenuSeul:nth-child(7) {
-    flex-basis: 80%;
-    display: flex; }
-  /* line 124, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .element3-detailPageMenuSeul {
-    display: flex;
-    flex-basis: 90%; }
-  /* line 128, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #basdepagemenu {
-    text-align: center; }
-    /* line 130, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    #basdepagemenu img {
-      width: 10%; }
-  /* line 135, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenairePageMentions {
-    padding: 1%; }
-  /* line 138, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenairePageMentions p {
-    text-align: justify;
-    font-size: 1.5em; }
-  /* line 142, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #contenairePageMentions h3 {
-    text-align: center;
-    font-size: 2em; }
-  /* line 147, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .colorMenuChic-partie1 {
-    color: #B75D1E; }
-  /* line 150, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .colorMenuChic-partie2 {
-    color: #935087; }
-  /* line 153, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .colorMenuChic-partie3 {
-    color: #5A2FC0; } }
+    /* line 86, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #hautdepagemenu .lienRetourAccueil a {
+      text-decoration: none;
+      color: #008000; }
+
+/* line 92, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+h1 {
+  text-align: center;
+  font-size: 2em; }
+
+/* line 96, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.contenaireTitre-detailPageMenuSeul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  justify-content: space-around;
+  font-size: 1.8em; }
+
+/* line 104, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element_contenaireTitre-detailPageMenuSeul {
+  flex-basis: 33%; }
+
+/* line 107, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element_contenaireTitre-detailPageMenuSeul img {
+  max-width: 60%; }
+
+/* line 112, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.contenaire1-detailPageMenuSeul, .contenaire2-detailPageMenuSeul, .contenaire3-detailPageMenuSeul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  justify-content: space-around; }
+
+/* line 119, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element-detailPageMenuSeul:nth-child(1), .element-detailPageMenuSeul:nth-child(3), .element-detailPageMenuSeul:nth-child(5), .element-detailPageMenuSeul:nth-child(7) {
+  flex-basis: 80%;
+  display: flex; }
+
+/* line 124, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element3-detailPageMenuSeul {
+  display: flex;
+  flex-basis: 100%; }
+
+/* line 128, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#basdepagemenu {
+  text-align: center; }
+  /* line 130, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #basdepagemenu img {
+    width: 10%; }
+
+/* line 135, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenairePageMentions {
+  padding: 1%; }
+
+/* line 138, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenairePageMentions p {
+  text-align: justify;
+  font-size: 1.5em; }
+
+/* line 142, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+#contenairePageMentions h3 {
+  text-align: center;
+  font-size: 2em; }
+
+/* line 147, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.colorMenuChic-partie1 {
+  color: #B75D1E; }
+
+/* line 150, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.colorMenuChic-partie2 {
+  color: #935087; }
+
+/* line 153, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.colorMenuChic-partie3 {
+  color: #5A2FC0; }
 
 @media (min-width: 768px) {
   /* line 161, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 80%; } }
+    width: 20%; } }
 
 @media (min-width: 992px) {
   /* line 167, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 80%; } }
-
-@media (min-width: 1200px) {
+    width: 40%;
+    margin: auto;
+    font-size: 16px;
+    background-color: #EEEEEE; }
   /* line 173, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  body {
-    width: 80%; } }
+  .menu_contenuPage {
+    display: flex;
+    width: 48%;
+    padding: 1%;
+    justify-content: space-around;
+    background-color: red;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms; }
+    /* line 182, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    .menu_contenuPage:hover {
+      transform: scale(1.05);
+      background-color: aliceblue;
+      opacity: 1; }
+    /* line 187, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    .menu_contenuPage img {
+      max-width: 90%; } }
 
 /*# sourceMappingURL=styles.css.map */
