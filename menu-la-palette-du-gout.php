@@ -2,7 +2,9 @@
 include("head.php");
 ?>
 <section id="ContenuPageMenuChic">
-        
+    <div id="hautdepagemenu">
+        <p class="lienRetourAccueil"><a href="/">&larr; Retour aux menus</a></p>
+    </div>
         <h1>La palette du goût</h1>
     
     
