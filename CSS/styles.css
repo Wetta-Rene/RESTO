@@ -1,2 +1,136 @@
+@media (max-width: 576px) {
+  /* line 6, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px; }
+  /* line 12, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  header {
+    color: #ffff00;
+    background-color: #008000;
+    padding: 5%;
+    text-align: center;
+    font-size: 3em; }
+  /* line 20, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #contenuPage {
+    padding: 1%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 3em;
+    background-color: #EEEEEE; }
+  /* line 28, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #contenuPage a {
+    text-decoration: none;
+    color: #008000; }
+  /* line 32, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .menu_contenuPage {
+    display: flex;
+    width: 30%; }
+    /* line 35, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    .menu_contenuPage img {
+      max-width: 100%; }
+  /* line 39, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .menu_contenuPage:nth-child(2), .menu_contenuPage:nth-child(4), .menu_contenuPage:nth-child(6), .menu_contenuPage:nth-child(8) {
+    flex-basis: 60%;
+    padding-left: 10%;
+    align-items: center; }
+  /* line 44, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #contenuFooter {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+    background-color: #008000; }
+    /* line 49, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #contenuFooter a {
+      text-decoration: none;
+      color: #ffff00; }
+  /* line 54, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .elementFooter {
+    flex-basis: 30%;
+    text-align: center; }
+  /* line 59, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #contenaireBoutonProchainement {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%; }
+  /* line 65, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #bouton_prochainement {
+    width: 30%;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+    background-color: #008000;
+    border-radius: 5%;
+    color: #ffff00; }
+  /* line 75, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #hautdepagemenu {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em; }
+    /* line 79, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #hautdepagemenu img {
+      width: 10%; }
+    /* line 82, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #hautdepagemenu .lienRetourAccueil {
+      font-size: 2em; }
+      /* line 85, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+      #hautdepagemenu .lienRetourAccueil a {
+        text-decoration: none;
+        color: #008000; }
+  /* line 91, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  h1 {
+    text-align: center;
+    font-size: 2em; }
+  /* line 95, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .contenaireTitre-detailPageMenuSeul {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    justify-content: space-around;
+    font-size: 1.8em; }
+  /* line 103, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .element_contenaireTitre-detailPageMenuSeul {
+    flex-basis: 33%; }
+  /* line 106, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .element_contenaireTitre-detailPageMenuSeul img {
+    max-width: 60%; }
+  /* line 111, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .contenaire1-detailPageMenuSeul, .contenaire2-detailPageMenuSeul, .contenaire3-detailPageMenuSeul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    justify-content: space-around; }
+  /* line 117, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .element-detailPageMenuSeul:nth-child(1), .element-detailPageMenuSeul:nth-child(3), .element-detailPageMenuSeul:nth-child(5), .element-detailPageMenuSeul:nth-child(7) {
+    flex-basis: 80%;
+    display: flex; }
+  /* line 122, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .element3-detailPageMenuSeul {
+    display: flex;
+    flex-basis: 90%; }
+  /* line 126, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #basdepagemenu {
+    text-align: center; }
+    /* line 128, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #basdepagemenu img {
+      width: 10%; } }
+
+@media (min-width: 768px) {
+  /* line 143, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  body {
+    width: 80%; } }
+
+@media (min-width: 992px) {
+  /* line 149, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  body {
+    width: 80%; } }
+
+@media (min-width: 1200px) {
+  /* line 155, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  body {
+    width: 80%; } }
 
 /*# sourceMappingURL=styles.css.map */
