@@ -10,7 +10,7 @@ include("head.php");
         </div>
          <div class="menu_contenuPage">
             <a href="menu-la-note-enchantee.php">
-            Voir le détail du menu...
+            Lire le menu...
             </a>
         </div>
          <div class="menu_contenuPage">
@@ -20,7 +20,7 @@ include("head.php");
         </div>
          <div class="menu_contenuPage">
             <a class="menu_contenuPageTexte" href="menu-le-chic-a-la-francaise.php">
-            Voir le détail du menu...
+            Lire le menu...
             </a>
         </div>       
         <div class="menu_contenuPage">
@@ -30,7 +30,7 @@ include("head.php");
         </div>
          <div class="menu_contenuPage">
             <a href="menu-le-delice-des-papilles.php">
-            Voir le détail du menu...
+            Lire le menu...
             </a>
         </div>         
          <div class="menu_contenuPage">
@@ -40,7 +40,7 @@ include("head.php");
         </div>
          <div class="menu_contenuPage">
             <a href="menu-la-palette-du-gout.php">
-            Voir le détail du menu...
+            Lire le menu...
             </a>
         </div>         
     </div>
