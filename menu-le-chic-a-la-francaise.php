@@ -7,7 +7,7 @@ include("head.php");
     </div>
         <h1>Le chic à la française</h1>
     
-    
+    <span class="colorMenuChic-partie1">
         <div class="contenaireTitre-detailPageMenuSeul">
             <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Gauche.png" alt="trait" /></div>
             <div class="element_contenaireTitre-detailPageMenuSeul">Pour se mettre en appétit</div>
@@ -21,7 +21,8 @@ include("head.php");
                 <p class="element-detailPageMenuSeul">Soupe à l' oignon revisitée</p>
                 <p class="element-detailPageMenuSeul">57€</p>
             </div>
-
+    </span>
+    <span class="colorMenuChic-partie2">
         <div class="contenaireTitre-detailPageMenuSeul">
             <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Gauche.png" alt="trait" /></div>
             <div class="element_contenaireTitre-detailPageMenuSeul">Plairie des papilles</div>
@@ -34,7 +35,9 @@ include("head.php");
                 <p class="element-detailPageMenuSeul">88€</p> 
                 <p class="element-detailPageMenuSeul">Pigeonneau d'Ille et Vilaine sur son lit de gnocchis aux légumes</p>
                 <p class="element-detailPageMenuSeul">175€</p>
-            </div>          
+            </div>  
+    </span>
+    <span class="colorMenuChic-partie3">
         <div class="contenaireTitre-detailPageMenuSeul">
             <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Gauche.png" alt="trait" /></div>
             <div class="element_contenaireTitre-detailPageMenuSeul">Gourmandises sucrées</div>
@@ -45,6 +48,7 @@ include("head.php");
                 <p class="element3-detailPageMenuSeul">Fondant au chocolat revisité</p>
                 <p class="element3-detailPageMenuSeul">Millefeuille croustillant</p>
             </div>
+    </span>
 </section>
 <?php
 include("footer.php");
