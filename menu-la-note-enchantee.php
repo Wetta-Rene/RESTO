@@ -2,9 +2,11 @@
 include("head.php");
 ?>
 <section id="ContenuPageMenuEnchantee">
-        <p class="imagePageMenuSeul"><img src="CSS/IMAGES/note.png" alt="note-de-musique" /></p>
-        <h1>La note enchantée</h1>
-    
+    <div id="hautdepagemenu">
+        <p class="lienRetourAccueil"><a href="/">&larr; Retour aux menus</a></p>
+            <p class="imagePageMenuSeul"><img src="CSS/IMAGES/note.png" alt="note-de-musique" /></p>
+    </div>
+                <h1>La note enchantée</h1>
     
         <div class="contenaireTitre-detailPageMenuSeul">
             <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenuGauche.png" alt="trait" /></div>
@@ -46,7 +48,10 @@ include("head.php");
                 <p class="element3-detailPageMenuSeul">Tarte au citron meringuée destructurée</p>
             </div> 
     
-    <p class="imagePageMenuSeul"><img src="CSS/IMAGES/note.png" alt="note-de-musique" />La note enchantée</p>
+    <div id="basdepagemenu">
+        <img src="CSS/IMAGES/note.png" alt="note-de-musique" />
+        <h2>La note enchantée</h2>
+    </div>
 
 
 </section>
