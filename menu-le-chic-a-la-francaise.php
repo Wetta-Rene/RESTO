@@ -1,10 +1,11 @@
 <?php
 include("head.php");
 ?>
-<section id="ContenuPageMenuChic">
    <div id="hautdepagemenu">
         <p class="lienRetourAccueil"><a href="/">&larr; Retour aux menus</a></p>
     </div>
+<section id="ContenuPageMenuChic">
+
         <h1>Le chic à la française</h1>
     
     <span class="colorMenuChic-partie1">
