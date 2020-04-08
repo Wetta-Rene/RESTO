@@ -1,10 +1,10 @@
 <?php
 include("head.php");
 ?>
-   <div id="hautdepagemenu"> 
-        <p class="lienRetourAccueil"><a href="/">&larr; Retour aux menus</a></p>
+<section id="ContenuPageMenuDelice"> 
+       <div id="hautdepagemenu"> 
+        <p class="lienRetourAccueil"><a href="/"> &larr; Retour aux menus</a></p>
     </div> 
-<section id="ContenuPageMenuDelice">   
         <h1>Le délice des papilles</h1>
     
     
