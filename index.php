@@ -2,35 +2,50 @@
 include("head.php");
 ?>
 <section>
-    <div id="contenuPage">
-        <div class="menu_contenuPage">
-            <a href="menu-la-note-enchantee.php">
-            Menu 1b
-            </a>
+    <div id="contenairePage">
+        <div class="element-contenairePage">
+            <div id="menu1">
+                <a href="menu-la-note-enchantee.php">
+                <img src="CSS/IMAGES/note.png" alt="note-musique" /><br />La note enchantée
+                <p>MENU</p>
+                </a>
+            </div>
         </div>
-         <div class="menu_contenuPage">
-            <a href="menu-le-chic-a-la-francaise.php">
-            <img src="CSS/IMAGES/Menus/menu-2b.png" />
-            </a>
-        </div>      
-        <div class="menu_contenuPage">
-            <a href="menu-le-delice-des-papilles.php">
-            <img src="CSS/IMAGES/Menus/menu-3b.png" />
-            </a>
-        </div>      
-         <div class="menu_contenuPage">
-            <a href="menu-la-palette-du-gout.php">
-            <img src="CSS/IMAGES/Menus/menu-4b.png" />
-            </a>
-        </div>      
-    </div>
+        <div class="element-contenairePage">
+            <div id="menu2">
+                <a href="menu-le-chic-a-la-francaise.php">
+                Le chic à la Française<br />
+                </a>
+                <p class="spanMenu2">MENU</p>
+            </div>
+        </div>
+        <div class="element-contenairePage">
+            <div id="menu3">
+                <a href="menu-le-delice-des-papilles.php">
+                 Le délice des papilles<br />
+                </a>
+                <p class="spanMenu3">MENU</p>
+            </div>
+        </div>
+        <div class="element-contenairePage">
+              <div id="menu4">
+                     <a href="menu-la-palette-du-gout.php">         
+                        La palette du goût<br />
+                    </a>
+                    <p class="spanMenu4">MENU</p>
+                </div>
 
-    
+        </div>
+        
+    </div>
     <div id="contenaireBoutonProchainement">
             <div id="bouton_prochainement">Prochainement<span class="points-progression">...</span></div>
     </div>
-    
+
+
 </section>
+
+
 <?php
 include("footer.php");
 ?>
