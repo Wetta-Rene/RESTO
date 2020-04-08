@@ -3,38 +3,28 @@ include("head.php");
 ?>
 <section>
     <div id="contenairePage">
-        <div class="element-contenairePage">
-            <div id="menu1">
+        <div id="menu1" class="element-contenairePage">
                 <a href="menu-la-note-enchantee.php">
                 <img src="CSS/IMAGES/note.png" alt="note-musique" /><br />La note enchantée
                 <p>MENU</p>
                 </a>
-            </div>
         </div>
-        <div class="element-contenairePage">
-            <div id="menu2">
+        <div id="menu2" class="element-contenairePage">
                 <a href="menu-le-chic-a-la-francaise.php">
                 Le chic à la Française<br />
+                <span class="spanMenu2">Menu</span>
                 </a>
-                <p class="spanMenu2">Menu</p>
-            </div>
         </div>
-        <div class="element-contenairePage">
-            <div id="menu3">
+        <div id="menu3" class="element-contenairePage">
                 <a href="menu-le-delice-des-papilles.php">
                  Le délice des papilles<br />
+                    <span class="spanMenu3">Menu</span>
                 </a>
-                <p class="spanMenu3">Menu</p>
-            </div>
         </div>
-        <div class="element-contenairePage">
-              <div id="menu4">
-                     <a href="menu-la-palette-du-gout.php">         
-                        La palette du goût<br />
-                    </a>
-                    <p class="spanMenu4">Menu</p>
-                </div>
-
+        <div id="menu4" class="element-contenairePage">
+                <a href="menu-la-palette-du-gout.php">La palette du goût<br />
+                <span class="spanMenu4">Menu</span>
+                </a>
         </div>
         
     </div>
