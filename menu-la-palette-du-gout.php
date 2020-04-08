@@ -10,9 +10,9 @@ include("head.php");
     
     
         <div class="contenaireTitre-detailPageMenuSeul">
-            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Gauche.png" alt="trait" /></div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitPaletteGauche.png" alt="trait" /></div>
             <div class="element_contenaireTitre-detailPageMenuSeul">Esquisse</div>
-            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Droite.png" alt="trait" /></div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitPaletteDroite.png" alt="trait" /></div>
         </div>
             <div class="contenaireTitre-detailPageMenuSeul">
                 <p class="element-detailPageMenuSeul">Fricassée d' escargot au piment d'espelette</p>
@@ -24,9 +24,9 @@ include("head.php");
             </div>
 
         <div class="contenaireTitre-detailPageMenuSeul">
-            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Gauche.png" alt="trait" /></div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitPaletteGauche.png" alt="trait" /></div>
             <div class="element_contenaireTitre-detailPageMenuSeul">Oeuvre de maître</div>
-            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Droite.png" alt="trait" /></div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitPaletteDroite.png" alt="trait" /></div>
         </div>
             <div class="contenaireTitre-detailPageMenuSeul">
                 <p class="element-detailPageMenuSeul">Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</p>
@@ -37,9 +37,9 @@ include("head.php");
                 <p class="element-detailPageMenuSeul">125€</p>
             </div>          
         <div class="contenaireTitre-detailPageMenuSeul">
-            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Gauche.png" alt="trait" /></div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitPaletteGauche.png" alt="trait" /></div>
             <div class="element_contenaireTitre-detailPageMenuSeul">Au sommet de l'art</div>
-            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenu2Droite.png" alt="trait" /></div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitPaletteDroite.png" alt="trait" /></div>
         </div>
             <div class="contenaireTitre-detailPageMenuSeul">
                 <p class="element-detailPageMenuSeul">Paris- Brest revisité</p>
