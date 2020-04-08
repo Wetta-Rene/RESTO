@@ -285,10 +285,9 @@ h1 {
     transition-duration: 400ms; }
     /* line 287, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     #menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover {
-      transform: scale(1.05);
-      opacity: 1; }
-    /* line 291, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+      transform: scale(1.05); }
+    /* line 290, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     #menu1 a, #menu2 a, #menu3 a, #menu4 a {
-      font-size: 0.7em; } }
+      font-size: 0.9em; } }
 
 /*# sourceMappingURL=styles.css.map */
