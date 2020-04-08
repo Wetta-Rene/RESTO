@@ -1,10 +1,11 @@
 <?php
 include("head.php");
 ?>
-<section id="ContenuPageMenuChic">
-    <div id="hautdepagemenu">
+<div id="hautdepagemenu">
         <p class="lienRetourAccueil"><a href="/">&larr; Retour aux menus</a></p>
     </div>
+<section id="ContenuPageMenuPalette">
+ 
         <h1>La palette du goût</h1>
     
     
