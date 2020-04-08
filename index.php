@@ -16,7 +16,7 @@ include("head.php");
                 <a href="menu-le-chic-a-la-francaise.php">
                 Le chic à la Française<br />
                 </a>
-                <p class="spanMenu2">MENU</p>
+                <p class="spanMenu2">Menu</p>
             </div>
         </div>
         <div class="element-contenairePage">
@@ -24,7 +24,7 @@ include("head.php");
                 <a href="menu-le-delice-des-papilles.php">
                  Le délice des papilles<br />
                 </a>
-                <p class="spanMenu3">MENU</p>
+                <p class="spanMenu3">Menu</p>
             </div>
         </div>
         <div class="element-contenairePage">
@@ -32,7 +32,7 @@ include("head.php");
                      <a href="menu-la-palette-du-gout.php">         
                         La palette du goût<br />
                     </a>
-                    <p class="spanMenu4">MENU</p>
+                    <p class="spanMenu4">Menu</p>
                 </div>
 
         </div>
