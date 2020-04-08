@@ -3,6 +3,9 @@ $color-texte: #F8C038;
 $background-color-header-footer: #488C74;
 $background-page: #FFFFFF;
 
+
+
+
 @font-face {
  font-family: "dancing";
  src: url("/FONTS/dancing.ttf");
@@ -65,11 +68,11 @@ $background-page: #FFFFFF;
       background-color: #FCF2FE;
         font-family: "dancing";
         a{
-          background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
+             background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
-          color: transparent;
+    color: transparent;
             width: 100%;
             }
         .spanMenu2{
@@ -82,7 +85,7 @@ $background-page: #FFFFFF;
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
-          color: transparent;
+    color: transparent;
 }
 
 
@@ -207,7 +210,7 @@ footer{
 // section des menus //
 #hautdepagemenu{
         position: absolute;
-        font-size: 0.8em;
+        font-size: 0.7em;
 
             .lienRetourAccueil{
                      font-size: 1.6em;
