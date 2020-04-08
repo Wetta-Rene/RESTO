@@ -2,6 +2,15 @@
 $color-texte: #ffff00;
 $background-color-header-footer: #008000;
 $background-page: #EEEEEE;
+
+@font-face {
+ font-family: "dancing";
+ src: url("/FONTS/dancing.ttf");
+}
+@font-face {
+ font-family: "Caveat-Regular";
+ src: url("/FONTS/Caveat-Regular.ttf");
+}
 // Small devices (landscape phones, 576px and up)
 //@media (max-width: 576px) {}
   body {
@@ -34,7 +43,6 @@ $background-page: #EEEEEE;
         margin-bottom: 2%;
         min-height: 300px;
         font-size: 1.6em;
-        font-weight: bolder;
     }
 
   #menu1, #menu2, #menu3, #menu4{
@@ -54,6 +62,7 @@ $background-page: #EEEEEE;
 
     #menu2{
       background-color: #FCF2FE;
+        font-family: "dancing";
         .spanMenu2{
                 color: #B75D1E;
             }
@@ -70,6 +79,7 @@ $background-page: #EEEEEE;
 
     #menu3{
       background-color: #F7F8F7;
+      font-family: "dancing";
         .spanMenu3{
                 color: #156FFA;
             }
@@ -86,7 +96,8 @@ $background-page: #EEEEEE;
 
 
 #menu4{
-      background-color: #FDFFFD;
+      background-color: #FFFFFF;
+      font-family: "dancing";
         .spanMenu4{
                 color: #64B645;
             }
@@ -116,19 +127,26 @@ $background-page: #EEEEEE;
 }
 #ContenuPageMenuEnchantee{
     background-color: #F8D7D2;
+    font-family: "dancing";
 }
 #ContenuPageMenuChic{
     background-color: #FCF2FE;
+    font-family: serif;
 }
 #ContenuPageMenuDelice{
-    background-color: #FDFFFD;
+    background-color: #E8EBEB;
+    font-family: "dancing";
+    h1{
+        font-family: "dancing";
+    }
 }
 #ContenuPageMenuPalette{
-    background-color: #FDFFFD;
+    background-color: #FFFFFF;
+    font-family: "Caveat-Regular";
 }
 
   #contenuFooter{
-        font-size: 1.5em;
+        font-size: 1em;
         display: flex;
         justify-content: space-around;
         background-color: $background-color-header-footer;
@@ -184,7 +202,7 @@ $background-page: #EEEEEE;
     flex-wrap: wrap;
     margin-top: 3%;
     justify-content: space-around;
-    font-size: 1.4em;
+    font-size: 1em;
 }
     .element_contenaireTitre-detailPageMenuSeul{
         flex-basis: 33%;
