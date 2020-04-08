@@ -54,45 +54,50 @@ $background-page: #EEEEEE;
 
     #menu2{
       background-color: #FCF2FE;
-        a{
-          background-image: linear-gradient(to right, #C96D2D, #7B39FB);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-          color: transparent;
-          } 
         .spanMenu2{
-                color: #C96D2D;
+                color: #B75D1E;
             }
      }
 
-    #menu3{
-      background-color: #F7F8F7;
-        a{
-          background-image: linear-gradient(to right, #0F23D2, #156FFA);   
+#menu2 a,#ContenuPageMenuChic h1{
+          background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
           color: transparent;
-          } 
+}
+
+
+    #menu3{
+      background-color: #F7F8F7;
         .spanMenu3{
                 color: #156FFA;
             }
      }
 
+#menu3 a,#ContenuPageMenuDelice h1{
+          background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
+          -webkit-background-clip: text;
+          -moz-background-clip: text; 
+          background-clip: text;
+          color: transparent;
+
+      }
+
+
 #menu4{
       background-color: #FDFFFD;
-        a{
+        .spanMenu4{
+                color: #64B645;
+            }
+     }
+#menu4 a,#ContenuPageMenuPalette h1{
           background-image: linear-gradient(to right, #38842C, #AFF76C);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
           color: transparent;
           } 
-        .spanMenu4{
-                color: #64B645;
-            }
-     }
 
 .imagePageMenuSeul{
     width: 100%;
@@ -104,7 +109,7 @@ $background-page: #EEEEEE;
     }
     
 }
-#ContenuPageMenuEnchantee,#ContenuPageMenuChic{
+#ContenuPageMenuEnchantee,#ContenuPageMenuChic,#ContenuPageMenuDelice,#ContenuPageMenuPalette{
     paddin-top: 2%;
     padding-bottom: 2%;
     margin-bottom: 2%;
@@ -114,6 +119,12 @@ $background-page: #EEEEEE;
 }
 #ContenuPageMenuChic{
     background-color: #FCF2FE;
+}
+#ContenuPageMenuDelice{
+    background-color: #FDFFFD;
+}
+#ContenuPageMenuPalette{
+    background-color: #FDFFFD;
 }
 
   #contenuFooter{
@@ -193,6 +204,7 @@ $background-page: #EEEEEE;
 .element-detailPageMenuSeul:nth-child(1),.element-detailPageMenuSeul:nth-child(3),.element-detailPageMenuSeul:nth-child(5),.element-detailPageMenuSeul:nth-child(7){
     flex-basis: 80%;
     display: flex;
+    font-size: 0.8em;
 }   
     
 .element3-detailPageMenuSeul{
