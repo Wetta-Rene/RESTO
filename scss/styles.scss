@@ -102,7 +102,7 @@ $background-page: #EEEEEE;
                 color: #64B645;
             }
      }
-#menu4 a,#ContenuPageMenuPalette h1{
+#menu4 a, #ContenuPageMenuPalette h1{
           background-image: linear-gradient(to right, #38842C, #AFF76C);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
@@ -286,10 +286,9 @@ $background-page: #EEEEEE;
             transition-duration: 400ms;
             &:hover {
                 transform: scale(1.05);
-                opacity: 1;
             }
         a{
-            font-size: 0.7em;
+            font-size: 0.9em;
         }
     }
     
