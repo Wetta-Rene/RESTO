@@ -1,10 +1,10 @@
 <?php
 include("head.php");
 ?>
-<section id="ContenuPageMenuChic">
-   <div id="hautdepagemenu">
+   <div id="hautdepagemenu"> 
         <p class="lienRetourAccueil"><a href="/">&larr; Retour aux menus</a></p>
-    </div>     
+    </div> 
+<section id="ContenuPageMenuDelice">   
         <h1>Le délice des papilles</h1>
     
     
@@ -29,7 +29,7 @@ include("head.php");
         </div>
             <div class="contenaireTitre-detailPageMenuSeul">
                 <p class="element-detailPageMenuSeul">Poulet rôti aux herbes de provence et sa crème de truffe</p>
-                <p class="element-detailPageMenuSeul">1100€</p> 
+                <p class="element-detailPageMenuSeul">110€</p> 
                 <p class="element-detailPageMenuSeul">Langouste rôtie et ses légumes de saison</p>
                 <p class="element-detailPageMenuSeul">225€</p> 
                 <p class="element-detailPageMenuSeul">Côte de boeuf angus et sa purée de panais</p>
