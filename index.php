@@ -29,9 +29,14 @@ include("head.php");
         
     </div>
     <div id="contenaireBoutonProchainement">
-            <div id="bouton_prochainement">Prochainement<span class="points-progression">...</span></div>
+        <div id="bouton_prochainement">Prochainement<span class="points-progression"> . . . </span>
+        </div>
     </div>
-
+        <div class="container">
+        <div class="btn">
+            Vois comme je grandis !
+        </div>
+    </div>
 
 </section>
 
