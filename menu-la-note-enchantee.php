@@ -2,9 +2,6 @@
 include("head.php");
 ?>
 <section id="ContenuPageMenuEnchantee">
-       <div id="hautdepagemenu">
-        <p class="lienRetourAccueil"><a href="/"> &larr; Retour aux menus</a></p>
-    </div>
             <p class="imagePageMenuSeul"><img src="CSS/IMAGES/note.png" alt="note-de-musique" /></p>
                 <h1>La note enchantée</h1>
     
