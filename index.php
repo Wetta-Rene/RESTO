@@ -32,11 +32,11 @@ include("head.php");
         <div id="bouton_prochainement">Prochainement<span class="points-progression"> . . . </span>
         </div>
     </div>
-        <div class="container">
-        <div class="btn">
-            Vois comme je grandis !
-        </div>
+<div class="container">
+    <div class="progress">
+        <div class="progress__bar"></div>
     </div>
+</div>
 
 </section>
 
