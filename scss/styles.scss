@@ -5,7 +5,6 @@ $background-page: #FFFFFF;
 
 
 
-
 @font-face {
  font-family: "dancing";
  src: url("/FONTS/dancing.ttf");
@@ -29,6 +28,7 @@ $background-page: #FFFFFF;
     padding: 5%;
     text-align: center;
     font-size: 3em;
+    margin-bottom: 2%;
   }
     
     #contenairePage{
@@ -51,6 +51,9 @@ $background-page: #FFFFFF;
         text-align: center;
     }
 
+    #menu1, #menu2, #menu3, #menu4{
+        cursor: pointer;
+    }
 
     #menu1{
     background-color: #F8D7D2;
@@ -152,6 +155,8 @@ $background-page: #FFFFFF;
 #ContenuPageMenuEnchantee,#ContenuPageMenuChic,#ContenuPageMenuDelice,#ContenuPageMenuPalette{
     width: 98%;
     margin: auto;
+    border: 0.2rem solid #E0E0E0;
+
 }
 #ContenuPageMenuEnchantee{
     background-color: #F8D7D2;
@@ -202,24 +207,13 @@ footer{
             padding: 1%;
             margin: auto;
             text-align: center;
+            cursor: pointer;
             background-color: $background-color-header-footer;
             border-radius: 5%;
             color: $color-texte; 
     }  
     
 // section des menus //
-#hautdepagemenu{
-        position: absolute;
-        font-size: 0.7em;
-
-            .lienRetourAccueil{
-                     font-size: 1.6em;
-                            a{
-                            text-decoration: none;
-                            color: $background-color-header-footer;
-                            }
-                            }
-    }
     h1{
         text-align: center;
         font-size: 2em;
@@ -329,6 +323,25 @@ footer{
     
 
 
+    
+    
+
+    
+
+.btn {
+    background: blue;
+    color: red;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    opacity: 0;
+    transition-property: transform;
+    transition-duration: 400ms;
+    &:hover {
+        transform: opacity 1;
+    }
+}
 
     
     
