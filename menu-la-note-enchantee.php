@@ -7,7 +7,7 @@ include("head.php");
     
         <div class="contenaireTitre-detailPageMenuSeul">
             <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenuGauche.png" alt="trait" /></div>
-            <div class="element_contenaireTitre-detailPageMenuSeul">Prélude</div>
+            <div class="element_contenaireTitre-detailPageMenuSeul"><span class="souligneLefttoRight">Prélude</span></div>
             <div class="element_contenaireTitre-detailPageMenuSeul"><img src="CSS/IMAGES/traitMenuDroit.png" alt="trait" /></div>
         </div>
             <div class="contenaire1-detailPageMenuSeul">
