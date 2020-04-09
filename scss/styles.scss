@@ -261,6 +261,18 @@ footer{
     .element_contenaireTitre-detailPageMenuSeul{
         flex-basis: 33%;
     }
+
+.souligneLefttoRight{
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+
+.souligneLefttoRight:hover {
+  background-size: 100% 100%;
+}
+
+
         .element_contenaireTitre-detailPageMenuSeul img{
             max-width: 60%;
         }
