@@ -2,9 +2,12 @@
 include("head.php");
 ?>
 <section id="contenairePageMentions">
-       <div id="hautdepagemenu">
-        <p class="lienRetourAccueil"><a href="/">&larr; Retour à l' accueil</a></p>
-    </div>   
+      <div class="container">
+        <div class="btn">
+            ...
+        </div>
+    </div>
+ 
     <h1>Mentions légales</h1>
 
 <p>Merci de lire attentivement les présentes modalités d'utilisation du présent site avant de le parcourir. En vous connectant sur ce site, vous acceptez sans réserve les présentes modalités.</p>
