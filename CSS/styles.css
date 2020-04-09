@@ -188,14 +188,33 @@ footer {
   flex-basis: 30%;
   text-align: center; }
 
-/* line 199, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 200, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.elementFooter:hover {
+  -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out; }
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(10deg); }
+  25% {
+    transform: rotate(-10deg); }
+  50% {
+    transform: rotate(20deg); }
+  75% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(0deg); } }
+
+/* line 230, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenaireBoutonProchainement {
   width: 100%;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%; }
 
-/* line 205, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 236, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #bouton_prochainement {
   width: 30%;
   padding: 1%;
@@ -206,13 +225,13 @@ footer {
   border-radius: 5%;
   color: #F8C038; }
 
-/* line 217, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 248, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 h1 {
   text-align: center;
   font-size: 2em;
   padding-top: 8%; }
 
-/* line 222, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 253, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .contenaireTitre-detailPageMenuSeul {
   text-align: center;
   display: flex;
@@ -221,110 +240,96 @@ h1 {
   justify-content: space-around;
   font-size: 1em; }
 
-/* line 230, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 261, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element_contenaireTitre-detailPageMenuSeul {
   flex-basis: 33%; }
 
-/* line 233, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 264, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element_contenaireTitre-detailPageMenuSeul img {
   max-width: 60%; }
 
-/* line 238, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 269, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .contenaire1-detailPageMenuSeul, .contenaire2-detailPageMenuSeul, .contenaire3-detailPageMenuSeul {
   display: flex;
   flex-wrap: wrap;
   font-size: 1.2em;
   justify-content: space-around; }
 
-/* line 245, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 276, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element-detailPageMenuSeul:nth-child(1), .element-detailPageMenuSeul:nth-child(3), .element-detailPageMenuSeul:nth-child(5), .element-detailPageMenuSeul:nth-child(7) {
   flex-basis: 80%;
   display: flex;
   font-size: 1em; }
 
-/* line 251, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 282, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element3-detailPageMenuSeul {
   display: flex;
   flex-basis: 90%; }
 
-/* line 255, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 286, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #basdepagemenu {
   padding-bottom: 4%;
   text-align: center; }
-  /* line 258, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 289, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #basdepagemenu img {
     width: 10%; }
 
-/* line 263, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 294, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions {
   padding: 1%; }
 
-/* line 266, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 297, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions p {
   text-align: justify;
   font-size: 1.5em; }
 
-/* line 270, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 301, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions h3 {
   text-align: center;
   font-size: 2em; }
 
-/* line 275, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 306, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie1 {
   color: #B75D1E; }
 
-/* line 278, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 309, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie2 {
   color: #935087; }
 
-/* line 281, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 312, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie3 {
   color: #5A2FC0; }
 
 @media (min-width: 768px) {
-  /* line 289, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 320, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 20%; } }
 
 @media (min-width: 992px) {
-  /* line 295, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 326, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 40%;
     margin: auto;
     font-size: 16px;
     background-color: #FFFFFF; }
-  /* line 304, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 335, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .element-contenairePage {
     min-height: 420px; }
-  /* line 307, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 338, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #menu1, #menu2, #menu3, #menu4 {
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms; }
-    /* line 311, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    /* line 342, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     #menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover {
       transform: scale(1.05); }
-    /* line 314, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    /* line 345, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     #menu1 a, #menu2 a, #menu3 a, #menu4 a {
       font-size: 0.9em; }
-  /* line 318, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 349, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice, #ContenuPageMenuPalette {
     font-size: 1.2em;
     width: 90%;
-    margin: auto; }
-  /* line 331, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .btn {
-    background: blue;
-    color: red;
-    font-size: 3rem;
-    cursor: pointer;
-    padding: 1.85rem 3rem;
-    border-radius: 10rem;
-    opacity: 0;
-    transition-property: transform;
-    transition-duration: 400ms; }
-    /* line 341, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    .btn:hover {
-      transform: opacity 1; } }
+    margin: auto; } }
 
 /*# sourceMappingURL=styles.css.map */
