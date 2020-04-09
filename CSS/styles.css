@@ -134,61 +134,61 @@ header {
 .imagePageMenuSeul {
   width: 100%;
   text-align: center; }
-  /* line 149, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 148, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .imagePageMenuSeul img {
     width: 10%;
     margin-top: 2%; }
 
-/* line 155, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 154, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice, #ContenuPageMenuPalette {
   width: 98%;
   margin: auto;
   border: 0.2rem solid #E0E0E0; }
 
-/* line 161, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 160, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #ContenuPageMenuEnchantee {
   background-color: #F8D7D2;
   font-family: "dancing"; }
 
-/* line 165, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 164, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #ContenuPageMenuChic {
   background-color: #FCF2FE;
   font-family: serif; }
 
-/* line 169, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 168, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #ContenuPageMenuDelice {
   background-color: #E8EBEB;
   font-family: "dancing"; }
-  /* line 172, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 171, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuDelice h1 {
     font-family: "dancing"; }
 
-/* line 176, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 175, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #ContenuPageMenuPalette {
   background-color: #FFFFFF;
   font-family: "Caveat-Regular"; }
 
-/* line 181, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 180, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 footer {
   margin-top: 2%; }
 
-/* line 184, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 183, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenuFooter {
   font-size: 1em;
   display: flex;
   justify-content: space-around;
   background-color: #488C74; }
-  /* line 189, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 188, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenuFooter a {
     text-decoration: none;
     color: #F8C038; }
 
-/* line 194, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 193, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .elementFooter {
   flex-basis: 30%;
   text-align: center; }
 
-/* line 200, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 199, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .elementFooter:hover {
   -webkit-animation-name: wiggle;
   -webkit-animation-duration: 500ms;
@@ -207,14 +207,14 @@ footer {
   100% {
     transform: rotate(0deg); } }
 
-/* line 230, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 229, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenaireBoutonProchainement {
   width: 100%;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%; }
 
-/* line 236, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 235, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #bouton_prochainement {
   width: 30%;
   padding: 1%;
@@ -225,13 +225,13 @@ footer {
   border-radius: 5%;
   color: #F8C038; }
 
-/* line 248, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 247, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 h1 {
   text-align: center;
-  font-size: 2em;
-  padding-top: 8%; }
+  font-size: 2.5em;
+  font-weight: normal; }
 
-/* line 253, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 252, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .contenaireTitre-detailPageMenuSeul {
   text-align: center;
   display: flex;
@@ -240,9 +240,10 @@ h1 {
   justify-content: space-around;
   font-size: 1em; }
 
-/* line 261, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 260, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element_contenaireTitre-detailPageMenuSeul {
-  flex-basis: 33%; }
+  flex-basis: 33%;
+  font-size: -1em; }
 
 /* line 265, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .souligneLefttoRight {
@@ -331,7 +332,7 @@ h1 {
 @media (min-width: 992px) {
   /* line 349, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 40%;
+    width: 50%;
     margin: auto;
     font-size: 16px;
     background-color: #FFFFFF; }
