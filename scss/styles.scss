@@ -145,7 +145,6 @@ $background-page: #FFFFFF;
 .imagePageMenuSeul{
     width: 100%;
     text-align: center;
-
     img{
         width: 10%;
         margin-top: 2%;
@@ -247,8 +246,8 @@ footer{
 // section des menus //
     h1{
         text-align: center;
-        font-size: 2em;
-        padding-top: 8%;
+        font-size: 2.5em;
+        font-weight: normal;
     } 
 .contenaireTitre-detailPageMenuSeul{
     text-align: center;
@@ -260,6 +259,7 @@ footer{
 }
     .element_contenaireTitre-detailPageMenuSeul{
         flex-basis: 33%;
+        font-size: -1em;
     }
 
 .souligneLefttoRight{
@@ -347,7 +347,7 @@ footer{
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   body {
-    width: 40%;
+    width: 50%;
     margin: auto;
     font-size: 16px;
     background-color: $background-page;
