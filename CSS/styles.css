@@ -34,15 +34,15 @@ header {
 .element-contenairePage {
   display: flex;
   flex-direction: column;
-  width: 18vh;
-  height: 24vh;
+  width: 19vh;
+  height: 26vh;
   margin-top: 2%;
   margin-bottom: 2%;
   font-size: 1.4em;
-  border: 0.5rem solid #E0E0E0;
   text-align: center;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  box-shadow: 0 0 0 2px #E0E0E0; }
   /* line 53, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .element-contenairePage img {
     width: 3vh; }
@@ -294,33 +294,41 @@ h1 {
 .colorMenuChic-partie3 {
   color: #5A2FC0; }
 
-@media (min-width: 768px) {
-  /* line 309, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  body {
-    width: 20%; } }
-
 @media (min-width: 992px) {
-  /* line 315, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 314, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 50%;
     margin: auto;
     font-size: 16px;
     background-color: #FFFFFF; }
-  /* line 324, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 321, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .element-contenairePage {
-    min-height: 420px; }
-  /* line 327, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  #menu1, #menu2, #menu3, #menu4 {
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 50vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px 0 #E0E0E0, 4px 0 10px 0 #E0E0E0, 0 -4px 10px 0 #E0E0E0, -4px 0 10px 0 #E0E0E0; }
+    /* line 336, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    .element-contenairePage img {
+      width: 3vh; }
+  /* line 342, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  #decoMenuChic, #decoMenuEnchantee, #decoMenuGout, #decoMenuPapille {
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms; }
-    /* line 331, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    #menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover {
+    /* line 346, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #decoMenuChic:hover, #decoMenuEnchantee:hover, #decoMenuGout:hover, #decoMenuPapille:hover {
       transform: scale(1.05); }
-    /* line 334, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-    #menu1 a, #menu2 a, #menu3 a, #menu4 a {
+    /* line 349, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    #decoMenuChic a, #decoMenuEnchantee a, #decoMenuGout a, #decoMenuPapille a {
       font-size: 0.9em; }
-  /* line 338, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 354, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice, #ContenuPageMenuPalette {
     font-size: 1.2em;
     width: 90%;
