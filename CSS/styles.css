@@ -187,28 +187,27 @@ footer {
 
 /* line 200, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenaireBoutonProchainement {
-  width: 100%;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%; }
-
-/* line 206, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-#bouton_prochainement {
-  width: 30%;
+  width: 20%;
   padding: 1%;
   margin: auto;
   text-align: center;
   cursor: pointer;
   background-color: #488C74;
   border-radius: 5%;
-  color: #F8C038; }
+  color: #F8C038;
+  margin-top: 2%; }
 
-/* line 216, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-#bouton_prochainement:after {
+/* line 211, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element1-boutonProchainement {
+  width: 70%;
+  float: left; }
+
+/* line 215, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.loading:after {
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
-  animation: ellipsis steps(4, end) 1000ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
   content: "\2026";
   /* ascii code for the ellipsis character */
   width: 0px; }
@@ -217,13 +216,13 @@ footer {
   to {
     width: 1.25em; } }
 
-/* line 242, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 241, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 h1 {
   text-align: center;
   font-size: 2.5em;
   font-weight: normal; }
 
-/* line 247, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 246, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .contenaireTitre-detailPageMenuSeul {
   text-align: center;
   display: flex;
@@ -232,16 +231,16 @@ h1 {
   justify-content: space-around;
   font-size: 1em; }
 
-/* line 255, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 254, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element_contenaireTitre-detailPageMenuSeul {
   flex-basis: 33%;
   font-size: 1em; }
 
-/* line 260, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 259, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .souligneLefttoRight {
   position: relative; }
 
-/* line 263, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 262, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .souligneLefttoRight::after {
   content: '';
   transform-origin: 0 0;
@@ -256,78 +255,78 @@ h1 {
   opacity: 0.8;
   transition: transform .3s; }
 
-/* line 277, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 276, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .souligneLefttoRight::hover::after {
   transform: scaleX(1); }
 
-/* line 282, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 281, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element_contenaireTitre-detailPageMenuSeul img {
   max-width: 60%; }
 
-/* line 287, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 286, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .contenaire1-detailPageMenuSeul, .contenaire2-detailPageMenuSeul, .contenaire3-detailPageMenuSeul {
   display: flex;
   flex-wrap: wrap;
   font-size: 1.2em;
   justify-content: space-around; }
 
-/* line 294, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 293, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element-detailPageMenuSeul:nth-child(1), .element-detailPageMenuSeul:nth-child(3), .element-detailPageMenuSeul:nth-child(5), .element-detailPageMenuSeul:nth-child(7) {
   flex-basis: 80%;
   display: flex;
   font-size: 1em; }
 
-/* line 300, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 299, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element3-detailPageMenuSeul {
   display: flex;
   flex-basis: 90%; }
 
-/* line 304, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 303, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #basdepagemenu {
   padding-bottom: 4%;
   text-align: center; }
-  /* line 307, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 306, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #basdepagemenu img {
     width: 10%; }
 
-/* line 312, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 311, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions {
   padding: 1%; }
 
-/* line 315, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 314, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions p {
   text-align: justify;
   font-size: 1.5em; }
 
-/* line 319, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 318, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions h3 {
   text-align: center;
   font-size: 2em; }
 
-/* line 324, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 323, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie1 {
   color: #B75D1E; }
 
-/* line 327, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 326, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie2 {
   color: #935087; }
 
-/* line 330, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 329, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie3 {
   color: #5A2FC0; }
 
 @media (min-width: 992px) {
-  /* line 343, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 342, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 50%;
     margin: auto;
     font-size: 16px;
     background-color: #FFFFFF; }
-  /* line 349, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 348, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .element_contenaireTitre-detailPageMenuSeul {
     flex-basis: 33%;
     font-size: 1.2em; }
-  /* line 354, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 353, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .element-contenairePage {
     display: flex;
     flex-direction: column;
@@ -340,21 +339,21 @@ h1 {
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0 4px 10px 0 #E0E0E0, 4px 0 10px 0 #E0E0E0, 0 -4px 10px 0 #E0E0E0, -4px 0 10px 0 #E0E0E0; }
-    /* line 369, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    /* line 368, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     .element-contenairePage img {
       width: 10vh; }
-  /* line 375, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 374, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #decoMenuChic, #decoMenuEnchantee, #decoMenuGout, #decoMenuPapille {
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms; }
-    /* line 379, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    /* line 378, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     #decoMenuChic:hover, #decoMenuEnchantee:hover, #decoMenuGout:hover, #decoMenuPapille:hover {
       transform: scale(1.05); }
-    /* line 382, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    /* line 381, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     #decoMenuChic a, #decoMenuEnchantee a, #decoMenuGout a, #decoMenuPapille a {
       font-size: 0.9em; }
-  /* line 387, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 386, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice, #ContenuPageMenuPalette {
     font-size: 1.2em;
     width: 90%;
