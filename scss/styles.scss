@@ -33,114 +33,80 @@ $background-page: #FFFFFF;
     
     #contenairePage{
         display: flex;
-        min-height: 600px;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        flex-direction: row;
-        
+        align-content: center;
     }
     .element-contenairePage{ 
         display: flex;
-        width: 40%;
+        flex-direction: column;
+        width: 18vh;;
+        height: 24vh;
         margin-top: 2%;
         margin-bottom: 2%;
-        min-height: 200px;
-        font-size: 1.6em;
+        font-size: 1.4em;
         border: 0.5rem solid #E0E0E0;
-        align-items: center;
         text-align: center;
-    }
-
-    #menu1, #menu2, #menu3, #menu4{
+        text-decoration: none;
         cursor: pointer;
-    }
-
-    #menu1{
-    background-color: #F8D7D2;
-            a{
-            color: #2D0E14;
-            text-decoration: none;
-            width: 100%;
-            }
             img{
-                width: 25%;
+                width: 3vh;
             }
     }
 
-    #menu2{
+    #decoMenuEnchantee{
+    background-color: #F8D7D2;
+    color: #2D0E14;
+    }
+
+    #decoMenuChic{
       background-color: #FCF2FE;
-        font-family: "dancing";
-        a{
-             background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-    color: transparent;
-            width: 100%;
-            }
-        .spanMenu2{
-                color: #B75D1E;
-            }
-     }
+        .spanMenuChicBas{
+            color: #B75D1E;
+        }
+    }
 
-#ContenuPageMenuChic h1{
-          background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-    color: transparent;
-}
-
-
-    #menu3{
+    #decoMenuPapille{
       background-color: #F7F8F7;
-      font-family: "dancing";
-        a{
-          background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-          color: transparent;
-         width: 100%;
-            }
         .spanMenu3{
-                color: #156FFA;
+        color: #156FFA;
             }
      }
 
-#ContenuPageMenuDelice h1{
+     #decoMenuGout{
+      background-color: #FFFFFF;
+        .spanMenuGoutBas{
+         color: #64B645;
+        }
+     }
+
+//effet sur les titres des menus du site
+.spanMenuChicTitre{
+            font-family: "dancing";
+            background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
+              -webkit-background-clip: text;
+              -moz-background-clip: text; 
+              background-clip: text;
+            color: transparent;
+}
+.spanMenuPapilleTitre{
+          font-family: "dancing";
           background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
           color: transparent;
-      }
-
-
-#menu4{
-      background-color: #FFFFFF;
-      font-family: "dancing";
-         a{
+}
+.spanMenuGoutTitre{
+          font-family: "dancing";
           background-image: linear-gradient(to right, #38842C, #AFF76C);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
           color: transparent;
-         width: 100%;
-            }
-        .spanMenu4{
-                color: #64B645;
-            }
-     }
+        }
 
-
-#ContenuPageMenuPalette h1{
-          background-image: linear-gradient(to right, #38842C, #AFF76C);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-          color: transparent;
-          } 
 
 .imagePageMenuSeul{
     width: 100%;
