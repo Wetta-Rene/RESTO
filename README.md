@@ -1,3 +1,3 @@
 # RESTO
 
-OC - Projet 3 du Développeur Web
+OC - Projet 3 de la formation Développeur Web
