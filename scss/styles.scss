@@ -41,15 +41,15 @@ $background-page: #FFFFFF;
     .element-contenairePage{ 
         display: flex;
         flex-direction: column;
-        width: 18vh;;
-        height: 24vh;
+        width: 19vh;;
+        height: 26vh;
         margin-top: 2%;
         margin-bottom: 2%;
         font-size: 1.4em;
-        border: 0.5rem solid #E0E0E0;
         text-align: center;
         text-decoration: none;
         cursor: pointer;
+        box-shadow: 0 0 0 2px #E0E0E0;
             img{
                 width: 3vh;
             }
@@ -304,12 +304,11 @@ footer{
 //////////////other media//////////////////
 
 
+
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  body {
-    width: 20%;
-}
-}
+
+
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   body {
@@ -319,12 +318,28 @@ footer{
     background-color: $background-page;
   }
     
-
-    
-.element-contenairePage{ 
-        min-height: 420px;
+    .element-contenairePage{ 
+        display: flex;
+        flex-direction: column;
+        width: 40vh;;
+        height: 50vh;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 1.4em;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        box-shadow:0 4px 10px 0 #E0E0E0,
+             4px 0 10px 0 #E0E0E0,
+             0 -4px 10px 0 #E0E0E0,
+             -4px 0 10px 0 #E0E0E0;
+            img{
+                width: 3vh;
+            }
     }
-    #menu1,#menu2,#menu3,#menu4{
+    
+    
+    #decoMenuChic,#decoMenuEnchantee,#decoMenuGout,#decoMenuPapille{
             transform: scale(1);
             transition-property: transform;
             transition-duration: 400ms;
@@ -335,6 +350,7 @@ footer{
             font-size: 0.9em;
         }
     }
+    
   #ContenuPageMenuEnchantee,#ContenuPageMenuChic,#ContenuPageMenuDelice,#ContenuPageMenuPalette{
     font-size: 1.2em;
     width: 90%;
