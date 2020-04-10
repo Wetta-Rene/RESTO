@@ -121,7 +121,10 @@ $background-page: #FFFFFF;
     width: 98%;
     margin: auto;
     border: 0.2rem solid #E0E0E0;
-
+}
+.fas{
+    padding-left: 4%;
+    padding-top: 2%;
 }
 #ContenuPageMenuEnchantee{
     background-color: #F8D7D2;
@@ -207,8 +210,18 @@ footer{
             background-color: $background-color-header-footer;
             border-radius: 5%;
             color: $color-texte; 
-    }  
-    
+    } 
+
+
+
+
+
+
+
+
+
+
+
 // section des menus //
     h1{
         text-align: center;
@@ -225,7 +238,7 @@ footer{
 }
     .element_contenaireTitre-detailPageMenuSeul{
         flex-basis: 33%;
-        font-size: -1em;
+        font-size: 1em;
     }
 
 .souligneLefttoRight{
@@ -317,6 +330,10 @@ footer{
     font-size: 16px;
     background-color: $background-page;
   }
+    .element_contenaireTitre-detailPageMenuSeul{
+        flex-basis: 33%;
+        font-size: 1.2em;
+    }
     
     .element-contenairePage{ 
         display: flex;
