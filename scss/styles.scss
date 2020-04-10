@@ -198,13 +198,7 @@ footer{
 
 
   #contenaireBoutonProchainement{
-        width: 100%;
-        text-align: center;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    #bouton_prochainement{
-            width: 30%;
+            width: 20%;
             padding: 1%;
             margin: auto;
             text-align: center;
@@ -212,12 +206,17 @@ footer{
             background-color: $background-color-header-footer;
             border-radius: 5%;
             color: $color-texte;
-    } 
-     #bouton_prochainement:after {
+      margin-top: 2%;
+        }
+    .element1-boutonProchainement{
+        width: 70%;
+        float: left;
+    }
+        .loading:after {
           overflow: hidden;
           display: inline-block;
-          vertical-align: bottom;
-          animation: ellipsis steps(4,end) 1000ms infinite;
+          vertical-align: bottom;     
+          animation: ellipsis steps(4,end) 900ms infinite;
           content: "\2026"; /* ascii code for the ellipsis character */
           width: 0px;
         }
