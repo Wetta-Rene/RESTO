@@ -316,7 +316,7 @@ h1 {
     box-shadow: 0 4px 10px 0 #E0E0E0, 4px 0 10px 0 #E0E0E0, 0 -4px 10px 0 #E0E0E0, -4px 0 10px 0 #E0E0E0; }
     /* line 336, /Users/RENE/DWJ/RESTO/scss/styles.scss */
     .element-contenairePage img {
-      width: 3vh; }
+      width: 10vh; }
   /* line 342, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #decoMenuChic, #decoMenuEnchantee, #decoMenuGout, #decoMenuPapille {
     transform: scale(1);
