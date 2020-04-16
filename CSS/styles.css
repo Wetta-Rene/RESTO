@@ -237,27 +237,16 @@ h1 {
   font-size: 1em; }
 
 /* line 259, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-.souligneLefttoRight {
-  position: relative; }
 
-/* line 262, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-.souligneLefttoRight::after {
-  content: '';
-  transform-origin: 0 0;
-  transform: scaleX(0);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: .4em;
-  background: #78ab4e;
-  z-index: -1;
-  opacity: 0.8;
-  transition: transform .3s; }
+.souligneLefttoRight{
+border-bottom: 2px solid green;
+ transition: border .6s ease-in;
+}
 
-/* line 276, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-.souligneLefttoRight::hover::after {
-  transform: scaleX(1); }
+.souligneLefttoRight:hover{
+border: 6px solid red;
+}
+
 
 /* line 281, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .element_contenaireTitre-detailPageMenuSeul img {
