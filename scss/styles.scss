@@ -1,86 +1,77 @@
 //Définition variables globale //
-$color-texte: #F8C038;
-$background-color-header-footer: #488C74;
-$background-page: #FFFFFF;
+/* Extra small devices (phones, 599px and down) */
+$colorTexte: #FACA45;
+$backgroundColorHeaderFooter: #569C87;
+$backgroundMenuEnchantee : #F8D7D2;
 
-
-
-@font-face {
- font-family: "dancing";
- src: url("/FONTS/dancing.ttf");
-}
-@font-face {
- font-family: "Caveat-Regular";
- src: url("/FONTS/Caveat-Regular.ttf");
-}
-// Small devices (landscape phones, 576px and up)
-//@media (max-width: 576px) {}
-  body {
+body {
     width: 98%;
     margin: auto;
     font-size: 10px;
-    background-color: $background-page;
+    margin-top: 10px;
+    border-top: 10px solid red;
   }
-    
-  header {
-    color: $color-texte;
-    background-color: $background-color-header-footer;
+header{
     padding: 5%;
+    background-color:$backgroundColorHeaderFooter;
+    color: $colorTexte;
     text-align: center;
     font-size: 3em;
     margin-bottom: 2%;
-  }
-    
-    #contenairePage{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .element-contenairePage{ 
-        display: flex;
-        flex-direction: column;
-        width: 19vh;;
-        height: 26vh;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-size: 1.4em;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-        box-shadow: 0 0 0 2px #E0E0E0;
-            img{
-                width: 3vh;
-            }
-    }
+}  
+#contenairePageAccueil{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    font-size: 2em;
+}
+.elementContenairePageAccueil{
+    display: flex;
+    width: 26vh;
+    height: 32vh;
+    margin: 4%;
+}
+.elementContenairePageAccueil img{
+    width: 30%;
+}
+.elementContenairePageAccueil a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+    text-decoration: none;
+}
 
-    #decoMenuEnchantee{
-    background-color: #F8D7D2;
+#decoMenuEnchantee{
+    background-color: $backgroundMenuEnchantee;
     color: #2D0E14;
     }
-
-    #decoMenuChic{
-      background-color: #FCF2FE;
-        .spanMenuChicBas{
-            color: #B75D1E;
+#decoMenuChic{
+    background-color: #FCF2FE;
+    .spanMenuChicBas{
+        color: #B75D1E;
+        margin-top: 2%;
         }
-    }
-
-    #decoMenuPapille{
-      background-color: #F7F8F7;
-        .spanMenu3{
+}
+#decoMenuPapille{
+    background-color: #F7F8F7;
+    .spanMenuPapilleBas{
         color: #156FFA;
-            }
-     }
-
-     #decoMenuGout{
-      background-color: #FFFFFF;
-        .spanMenuGoutBas{
-         color: #64B645;
+        margin-top: 2%;
         }
-     }
+}
+#decoMenuGout{
+    background-color: #FFFFFF;
+    .spanMenuGoutBas{
+        color: #64B645;
+        margin-top: 2%;
+        }
+}
 
-//effet sur les titres des menus du site
+/*effet sur les titres des menus du site*/
 .spanMenuChicTitre{
             font-family: "dancing";
             background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
@@ -106,66 +97,51 @@ $background-page: #FFFFFF;
           color: transparent;
         }
 
-
-.imagePageMenuSeul{
-    width: 100%;
-    text-align: center;
-    img{
-        width: 10%;
-        margin-top: 2%;
+#contenaireBoutonProchainement{
+            width: 20%;
+            padding: 1%;
+            margin: auto;
+            text-align: center;
+            cursor: pointer;
+            background-color: $backgroundColorHeaderFooter;
+            border-radius: 5%;
+            color: $colorTexte;
+}
+.element1-boutonProchainement{
+        width: 70%;
+        float: left;
     }
-    
-}
-#ContenuPageMenuEnchantee,#ContenuPageMenuChic,#ContenuPageMenuDelice,#ContenuPageMenuPalette{
-    width: 98%;
-    margin: auto;
-    border: 0.2rem solid #E0E0E0;
-}
-.fas{
-    padding-left: 4%;
-    padding-top: 2%;
-}
-.fas a{
-    text-decoration: none;
-}
-#ContenuPageMenuEnchantee{
-    background-color: #F8D7D2;
-    font-family: "dancing";
-}
-#ContenuPageMenuChic{
-    background-color: #FCF2FE;
-    font-family: serif;
-}
-#ContenuPageMenuDelice{
-    background-color: #E8EBEB;
-    font-family: "dancing";
-    h1{
-        font-family: "dancing";
-    }
-}
-#ContenuPageMenuPalette{
-    background-color: #FFFFFF;
-    font-family: "Caveat-Regular";
-}
+        .loading:after {
+          overflow: hidden;
+          display: inline-block;
+          vertical-align: bottom;     
+          animation: ellipsis steps(4,end) 900ms infinite;
+          content: "\2026"; /* ascii code for the ellipsis character */
+          width: 0px;
+        }
+/*keyframes petits points*/
+@keyframes ellipsis {
+        to {
+        width: 1.25em;    
+        }
+    }      
 
 footer{
     margin-top: 2%;
-}
-  #contenuFooter{
-        font-size: 1em;
+        font-size: 1.2em;
         display: flex;
         justify-content: space-around;
-        background-color: $background-color-header-footer;
+        background-color: $backgroundColorHeaderFooter;
       a{
           text-decoration: none;
-          color: $color-texte;
+          color: $colorTexte;
       }
   }
     .elementFooter{
         flex-basis: 30%;
         text-align: center;
+        padding: 1%;
     }
-
 
 .elementFooter:hover {
   -webkit-animation-name: wiggle;
@@ -182,68 +158,29 @@ footer{
   100% {transform: rotate(0deg);}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  #contenaireBoutonProchainement{
-            width: 20%;
-            padding: 1%;
-            margin: auto;
-            text-align: center;
-            cursor: pointer;
-            background-color: $background-color-header-footer;
-            border-radius: 5%;
-            color: $color-texte;
-      margin-top: 2%;
-        }
-    .element1-boutonProchainement{
-        width: 70%;
-        float: left;
-    }
-        .loading:after {
-          overflow: hidden;
-          display: inline-block;
-          vertical-align: bottom;     
-          animation: ellipsis steps(4,end) 900ms infinite;
-          content: "\2026"; /* ascii code for the ellipsis character */
-          width: 0px;
-        }
-
-        @keyframes ellipsis {
-          to {
-            width: 1.25em;    
-          }
-        }
-
-
-
-
-
-
-
-
-
-
-
 // section des menus //
-    h1{
+.fa-arrow-circle-left{
+    margin-left: 4%;
+}
+
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 98%;
+    margin: auto;
+    font-size: 1.2em;
+}
+.imagePageMenuSeul{
+    width: 15%;
+    margin: auto;
+}
+.imagePageMenuSeul img{
+    width: 100%;
+}
+h1{
         text-align: center;
         font-size: 2.5em;
         font-weight: normal;
     } 
-.contenaireTitre-detailPageMenuSeul{
+.contenaireTitre-detailPageMenuSeul {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -256,26 +193,7 @@ footer{
         font-size: 1em;
     }
 
-.souligneLefttoRight{
-  position: relative;
-}
-.souligneLefttoRight::after {
-  content: '';
-  transform-origin: 0 0; 
-  transform: scaleX(0);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: .4em; 
-  background: #78ab4e;
-  z-index: -1;
-  opacity: 0.8;
-  transition: transform .3s;
-}
-.souligneLefttoRight::hover::after {
-  transform: scaleX(1);
-}
+
 
 
         .element_contenaireTitre-detailPageMenuSeul img{
@@ -329,68 +247,115 @@ footer{
 .colorMenuChic-partie3{
     color: #5A2FC0;
 }
-//////////////other media//////////////////
 
-
-
-// Medium devices (tablets, 768px and up)
-
-
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  body {
-    width: 50%;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+body {
+    width: 98%;
     margin: auto;
-    font-size: 16px;
-    background-color: $background-page;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid green;
   }
-    .element_contenaireTitre-detailPageMenuSeul{
-        flex-basis: 33%;
-        font-size: 1.2em;
-    }
-    
-    .element-contenairePage{ 
-        display: flex;
-        flex-direction: column;
-        width: 40vh;;
-        height: 50vh;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-size: 1.4em;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-        box-shadow:0 4px 10px 0 #E0E0E0,
-             4px 0 10px 0 #E0E0E0,
-             0 -4px 10px 0 #E0E0E0,
-             -4px 0 10px 0 #E0E0E0;
-            img{
-                width: 10vh;
-            }
-    }
-    
-    
-    #decoMenuChic,#decoMenuEnchantee,#decoMenuGout,#decoMenuPapille{
-            transform: scale(1);
-            transition-property: transform;
-            transition-duration: 400ms;
-            &:hover {
-                transform: scale(1.05);
-            }
-        a{
-            font-size: 0.9em;
-        }
-    }
-    
-  #ContenuPageMenuEnchantee,#ContenuPageMenuChic,#ContenuPageMenuDelice,#ContenuPageMenuPalette{
-    font-size: 1.2em;
+#contenairePageAccueil{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    font-size: 2em;
+}
+.elementContenairePageAccueil{
+    display: flex;
+    width: 28vh;
+    height: 34vh;
+    margin: 4%;
+}
+ #contenaireBoutonProchainement{
+    width: 15%;
+}
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 94%;
+    margin: auto;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid blue;
+  } 
+#contenairePageAccueil{
+    width: 60%;
+}
+.elementContenairePageAccueil{
+    display: flex;
+    width: 26vh;
+    height: 34vh;
+    margin: 6%;
+}
+ #contenaireBoutonProchainement{
+    width: 10%;
+}
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
     width: 90%;
     margin: auto;
+    font-size: 1.8em;
 }
-    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid orange;
+  } 
+#contenairePageAccueil{
+    width: 50%;
+}
+.elementContenairePageAccueil{
+    display: flex;
+    width: 24vh;
+    height: 34vh;
+    margin: 8%;
+}
+ #contenaireBoutonProchainement{
+    width: 8%;
+}  
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 70%;
+    margin: auto;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid pink;
+  } 
+#contenairePageAccueil{
+    width: 50%;
+}
+.elementContenairePageAccueil{
+    display: flex;
+    width: 28vh;
+    height: 34vh;
+    margin: 4%;
+}
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 50%;
+    margin: auto;
+}
+}
 
 
-    
-    
-}
