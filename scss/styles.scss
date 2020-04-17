@@ -1,11 +1,11 @@
 //Définition variables globale //
-/* Extra small devices (phones, 599px and down) */
-$colorTexte: #FACA45;
+$colorTexte: #FACA43;
 $backgroundColorHeaderFooter: #569C87;
 $backgroundMenuEnchantee : #FADFDB;
 $backgroundMenuChic: #FDF5FF;
 $backgroundMenuDelice: #EDEFEF;
 $backgroundMenuGout: #FDFFFD;
+
 
 body {
     width: 98%;
@@ -21,21 +21,23 @@ header{
     text-align: center;
     font-size: 3em;
     margin-bottom: 2%;
-}  
+} 
 #contenairePageAccueil{
     width: 90%;
+    margin: auto;
     display: flex;
+    flex-direction: row;
     flex-flow: wrap;
     justify-content: space-around;
-    font-size: 2em;
 }
 .elementContenairePageAccueil{
     display: flex;
     width: 22vh;
     height: 32vh;
     margin: 4%;
-    box-shadow: 4px 4px 0 0 #FAFAFA;
-    box-shadow: 0 0 4px 4px #FAFAFA;
+    font-size: 1.2em;
+    box-shadow: 4px 4px 0 0 #B0BEC5;
+    box-shadow: 0 0 4px 4px #B0BEC5;
 }
 .elementContenairePageAccueil img{
     width: 20%;
@@ -49,6 +51,7 @@ header{
     text-decoration: none;
 }
 
+/*decoration accueil des menus */
 #decoMenuEnchantee{
     background-color: $backgroundMenuEnchantee;
     color: #2D0E14;
@@ -80,95 +83,108 @@ header{
         font-family: "Dancing Script";
         }
 }
-
-/*effet sur les titres des menus du site*/
 .spanMenuEnchanteeTitre{
-        color: #263238;
-    font-size: 0.6em;
-    
+    color: #263238;
 }
 .spanMenuChicTitre{
-            font-family: "Dancing Script";
-            background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
-              -webkit-background-clip: text;
-              -moz-background-clip: text; 
-              background-clip: text;
-            color: transparent;
-            font-size: 0.8em;
+    font-family: "Dancing Script";
+    background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
 }
 .spanMenuPapilleTitre{
-          font-family: "Dancing Script";
-          background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-          color: transparent;
-            font-size: 0.8em;
+    font-family: "Dancing Script";
+     background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
+     -webkit-background-clip: text;
+     -moz-background-clip: text; 
+      background-clip: text;
+      color: transparent;
 }
 .spanMenuGoutTitre{
-          font-family: "Dancing Script";
-          background-image: linear-gradient(to right, #38842C, #AFF76C);   
-          -webkit-background-clip: text;
-          -moz-background-clip: text; 
-          background-clip: text;
-          color: transparent;
-            font-size: 0.8em;
-        }
+    font-family: "Dancing Script";
+    background-image: linear-gradient(to right, #38842C, #AFF76C);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.spanMenuEnchanteeTitre:hover{
+    transition-duration: .3s;
+    transform: scale(1.4);
+}
+.spanMenuChicTitre:hover{
+    transition-duration: .3s;
+    transform: scale(1.4);
+}
+.spanMenuPapilleTitre:hover{
+    transition-duration: .3s;
+    transform: scale(1.4);
+}
+.spanMenuGoutTitre:hover{
+    transition-duration: .3s;
+    transform: scale(1.4);
+}
 
+/*bouton prochainement */
 #contenaireBoutonProchainement{
-            width: 20%;
-            padding: 1%;
-            margin: auto;
-            text-align: center;
-            cursor: pointer;
-            background-color: $backgroundColorHeaderFooter;
-            border-radius: 5%;
-            color: $colorTexte;
+    width: 100%;
+    margin-top: 2%;
+}
+.bouton{
+    width: 25%;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: $backgroundColorHeaderFooter;
+    border-radius: 5%;
+    color: $colorTexte; 
+    font-size: 1.3em;
 }
 .element1-boutonProchainement{
-        width: 70%;
-        float: left;
+    width: 70%;
+    float: left;
     }
-        .loading:after {
-          overflow: hidden;
-          display: inline-block;
-          vertical-align: bottom;     
-          animation: ellipsis steps(4,end) 900ms infinite;
-          content: "\2026"; /* ascii code for the ellipsis character */
-          width: 0px;
+    .loading:after {
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: bottom;     
+        animation: ellipsis steps(4,end) 900ms infinite;
+        content: "\2026"; /* ascii code for the ellipsis character */
+        width: 0px;
         }
-/*keyframes petits points*/
-@keyframes ellipsis {
-        to {
-        width: 1.25em;    
-        }
-    }      
-
+        /*keyframes petits points*/
+        @keyframes ellipsis {
+                to {
+                width: 1.25em;    
+                }
+            }
+/* pied de page */
 footer{
     margin-top: 2%;
-        font-size: 1.2em;
-        display: flex;
-        justify-content: space-around;
-        background-color: $backgroundColorHeaderFooter;
-      a{
-          text-decoration: none;
-          color: $colorTexte;
-      }
-  }
-    .elementFooter{
-        flex-basis: 30%;
-        text-align: center;
-        padding: 1%;
-        font-size: 1.2em;
-    }
-
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;        
+    background-color: $backgroundColorHeaderFooter;
+        a{
+            text-decoration: none;
+            color: $colorTexte;
+         }
+}
+.elementFooter{
+    flex-basis: 30%;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.2em;
+}
 .elementFooter:hover {
   -webkit-animation-name: wiggle;
   -webkit-animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-in-out;
 }
-
 @keyframes wiggle {
   0% {transform: rotate(10deg);}
   25% {transform: rotate(-10deg);}
@@ -177,9 +193,14 @@ footer{
   100% {transform: rotate(0deg);}
 }
 
-// section des menus //
+
+/* page menu seul */
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
 .fa-arrow-circle-left{
-    margin-left: 4%;
+    margin-left: 4%; 
 }
 
 #ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
@@ -207,11 +228,6 @@ footer{
 .imagePageMenuSeul img{
     width: 100%;
 }
-h1{
-        text-align: center;
-        font-size: 2.5em;
-        font-weight: normal;
-    } 
 .contenaireTitre-detailPageMenuSeul {
     text-align: center;
     display: flex;
@@ -220,54 +236,25 @@ h1{
     justify-content: space-around;
     font-size: 1em;
 }
-    .element_contenaireTitre-detailPageMenuSeul{
-        flex-basis: 33%;
-        font-size: 1em;
-    }
-
-
-        .element_contenaireTitre-detailPageMenuSeul img{
-            max-width: 60%;
-        }
-    
-
-.contenaire1-detailPageMenuSeul,.contenaire2-detailPageMenuSeul,.contenaire3-detailPageMenuSeul{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.2em;
-    justify-content: space-around;
+.element_contenaireTitre-detailPageMenuSeul{
+    flex-basis: 33%;
+    font-size: 1em;
 }
-
+.element_contenaireTitre-detailPageMenuSeul img{
+    max-width: 60%;
+}
 .element-detailPageMenuSeul:nth-child(1),.element-detailPageMenuSeul:nth-child(3),.element-detailPageMenuSeul:nth-child(5),.element-detailPageMenuSeul:nth-child(7){
     flex-basis: 80%;
     display: flex;
     font-size: 1em;
 }   
-    
 .element3-detailPageMenuSeul{
     display: flex;
     flex-basis: 90%;
 }
-    #basdepagemenu {
-        padding-bottom: 4%;
-        text-align: center;
-        img{
-            width: 10%;
 
-        } 
-    }
-#contenairePageMentions{
-    padding: 1%;
-}
-#contenairePageMentions p{
-    text-align: justify;
-    font-size: 1.5em;
-}
-#contenairePageMentions h3{
-    text-align: center;
-    font-size: 2em;
-}
 
+/* couleurs sur les pages */
 .colorMenuChic-partie1{
     color: #B75D1E;
 }
@@ -278,114 +265,20 @@ h1{
     color: #5A2FC0;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-body {
-    width: 98%;
-    margin: auto;
-    font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid green;
-  }
-#contenairePageAccueil{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-flow: wrap;
+/*page mentions*/
+#contenairePageMentions{
+    padding: 1%;
+}
+#contenairePageMentions h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+} 
+#contenairePageMentions p{
+    text-align: justify;
+    font-size: 1.5em;
+}
+#contenairePageMentions h3{
+    text-align: center;
     font-size: 2em;
 }
-.elementContenairePageAccueil{
-    display: flex;
-    width: 28vh;
-    height: 34vh;
-    margin: 4%;
-}
- #contenaireBoutonProchainement{
-    width: 15%;
-}
-#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
-    width: 94%;
-    margin: auto;
-}
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-body {
-    width: 98%;
-    margin: auto;
-    font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid blue;
-  } 
-#contenairePageAccueil{
-    width: 60%;
-}
-.elementContenairePageAccueil{
-    display: flex;
-    width: 26vh;
-    height: 34vh;
-    margin: 6%;
-}
- #contenaireBoutonProchainement{
-    width: 10%;
-}
-#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
-    width: 90%;
-    margin: auto;
-    font-size: 1.8em;
-}
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
- body {
-    width: 98%;
-    margin: auto;
-    font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid orange;
-  } 
-#contenairePageAccueil{
-    width: 50%;
-}
-.elementContenairePageAccueil{
-    display: flex;
-    width: 24vh;
-    height: 34vh;
-    margin: 8%;
-}
- #contenaireBoutonProchainement{
-    width: 8%;
-}  
-#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
-    width: 70%;
-    margin: auto;
-}
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
- body {
-    width: 98%;
-    margin: auto;
-    font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid pink;
-  } 
-#contenairePageAccueil{
-    width: 50%;
-}
-.elementContenairePageAccueil{
-    display: flex;
-    width: 28vh;
-    height: 34vh;
-    margin: 4%;
-}
-#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
-    width: 50%;
-    margin: auto;
-}
-}
-
-
