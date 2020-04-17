@@ -3,9 +3,8 @@ $colorTexte: #FACA43;
 $backgroundColorHeaderFooter: #569C87;
 $backgroundMenuEnchantee : #FADFDB;
 $backgroundMenuChic: #FDF5FF;
-$backgroundMenuDelice: #EDEFEF;
+$backgroundMenuDelice: #F8F8F9;
 $backgroundMenuGout: #FDFFFD;
-
 
 body {
     width: 98%;
@@ -15,7 +14,7 @@ body {
     border-top: 10px solid red;
   }
 header{
-    padding: 5%;
+    padding: 3%;
     background-color:$backgroundColorHeaderFooter;
     color: $colorTexte;
     text-align: center;
@@ -23,7 +22,7 @@ header{
     margin-bottom: 2%;
 } 
 #contenairePageAccueil{
-    width: 90%;
+    width: 98%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -32,7 +31,7 @@ header{
 }
 .elementContenairePageAccueil{
     display: flex;
-    width: 22vh;
+    width: 20vh;
     height: 32vh;
     margin: 4%;
     font-size: 1.2em;
@@ -86,30 +85,38 @@ header{
 .spanMenuEnchanteeTitre{
     color: #263238;
 }
-.spanMenuChicTitre{
+.spanMenuChicTitre, #ContenuPageMenuChic h1{
     font-family: "Dancing Script";
-    background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
+    background-image: radial-gradient(circle at top left,#C77427, #8E57FC);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
+    font-weight: normal;
+    text-align: center;
 }
-.spanMenuPapilleTitre{
+
+.spanMenuPapilleTitre, #ContenuPageMenuDelice h1{
     font-family: "Dancing Script";
      background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
      -webkit-background-clip: text;
      -moz-background-clip: text; 
       background-clip: text;
       color: transparent;
+      font-weight: bolder;
+     text-align: center;
 }
-.spanMenuGoutTitre{
+.spanMenuGoutTitre, #ContenuPageMenuPalette h1{
     font-family: "Dancing Script";
     background-image: linear-gradient(to right, #38842C, #AFF76C);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
+    font-weight: normal;
+    text-align: center;
 }
+
 .spanMenuEnchanteeTitre:hover{
     transition-duration: .3s;
     transform: scale(1.4);
@@ -195,6 +202,9 @@ footer{
 
 
 /* page menu seul */
+nav{
+    margin-bottom: 2%;
+}
 nav a{
     text-decoration: none;
     color: #000000;
@@ -218,8 +228,10 @@ nav a{
 #ContenuPageMenuDelice{
     background-color: $backgroundMenuDelice;
 }
-#ContenuPageMenuGout{
+#ContenuPageMenuPalette{
     background-color: $backgroundMenuGout;
+    font-family: "Caveat";
+    font-size: 1.5em;
 }
 .imagePageMenuSeul{
     width: 15%;
@@ -270,7 +282,6 @@ nav a{
     padding: 1%;
 }
 #contenairePageMentions h1{
-    text-align: center;
     font-size: 2.5em;
     font-weight: normal;
 } 
@@ -281,4 +292,97 @@ nav a{
 #contenairePageMentions h3{
     text-align: center;
     font-size: 2em;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid green;
+  }
+#contenairePageAccueil{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid blue;
+  }  
+#contenairePageAccueil{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.elementContenairePageAccueil{
+    display: flex;
+    width: 24vh;
+    height: 32vh;
+    margin: 4%;
+    font-size: 1.2em;
+    box-shadow: 4px 4px 0 0 #B0BEC5;
+    box-shadow: 0 0 4px 4px #B0BEC5;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid orange;
+  }
+#contenairePageAccueil{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    }
+} 
+.elementContenairePageAccueil{
+    display: flex;
+    width: 28vh;
+    height: 34vh;
+    margin: 2%;
+    font-size: 1.2em;
+    box-shadow: 4px 4px 0 0 #B0BEC5;
+    box-shadow: 0 0 4px 4px #B0BEC5;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+body {
+    width: 98%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+    border-top: 10px solid pink;
+  }
+#contenairePageAccueil{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
 }
