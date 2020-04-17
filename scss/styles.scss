@@ -2,7 +2,10 @@
 /* Extra small devices (phones, 599px and down) */
 $colorTexte: #FACA45;
 $backgroundColorHeaderFooter: #569C87;
-$backgroundMenuEnchantee : #F8D7D2;
+$backgroundMenuEnchantee : #FADFDB;
+$backgroundMenuChic: #FDF5FF;
+$backgroundMenuDelice: #EDEFEF;
+$backgroundMenuGout: #FDFFFD;
 
 body {
     width: 98%;
@@ -20,7 +23,7 @@ header{
     margin-bottom: 2%;
 }  
 #contenairePageAccueil{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
@@ -28,19 +31,20 @@ header{
 }
 .elementContenairePageAccueil{
     display: flex;
-    width: 26vh;
+    width: 22vh;
     height: 32vh;
     margin: 4%;
+    box-shadow: 4px 4px 0 0 #FAFAFA;
+    box-shadow: 0 0 4px 4px #FAFAFA;
 }
 .elementContenairePageAccueil img{
-    width: 30%;
+    width: 20%;
 }
 .elementContenairePageAccueil a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     width: 100%;
     text-decoration: none;
 }
@@ -48,53 +52,67 @@ header{
 #decoMenuEnchantee{
     background-color: $backgroundMenuEnchantee;
     color: #2D0E14;
+    .spanMenuEnchanteeBas{
+        color: #263238;
+        margin: top;
+    }
     }
 #decoMenuChic{
-    background-color: #FCF2FE;
+    background-color: $backgroundMenuChic;
     .spanMenuChicBas{
         color: #B75D1E;
         margin-top: 2%;
         }
 }
 #decoMenuPapille{
-    background-color: #F7F8F7;
+    background-color: $backgroundMenuDelice;
     .spanMenuPapilleBas{
         color: #156FFA;
         margin-top: 2%;
+        font-family: "Dancing Script";
         }
 }
 #decoMenuGout{
-    background-color: #FFFFFF;
+    background-color: $backgroundMenuGout;
     .spanMenuGoutBas{
         color: #64B645;
         margin-top: 2%;
+        font-family: "Dancing Script";
         }
 }
 
 /*effet sur les titres des menus du site*/
+.spanMenuEnchanteeTitre{
+        color: #263238;
+    font-size: 0.6em;
+    
+}
 .spanMenuChicTitre{
-            font-family: "dancing";
+            font-family: "Dancing Script";
             background-image: linear-gradient(to right,#B75D1E, #7B39FB);   
               -webkit-background-clip: text;
               -moz-background-clip: text; 
               background-clip: text;
             color: transparent;
+            font-size: 0.8em;
 }
 .spanMenuPapilleTitre{
-          font-family: "dancing";
+          font-family: "Dancing Script";
           background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
           color: transparent;
+            font-size: 0.8em;
 }
 .spanMenuGoutTitre{
-          font-family: "dancing";
+          font-family: "Dancing Script";
           background-image: linear-gradient(to right, #38842C, #AFF76C);   
           -webkit-background-clip: text;
           -moz-background-clip: text; 
           background-clip: text;
           color: transparent;
+            font-size: 0.8em;
         }
 
 #contenaireBoutonProchainement{
@@ -141,6 +159,7 @@ footer{
         flex-basis: 30%;
         text-align: center;
         padding: 1%;
+        font-size: 1.2em;
     }
 
 .elementFooter:hover {
@@ -163,10 +182,23 @@ footer{
     margin-left: 4%;
 }
 
-#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
     width: 98%;
     margin: auto;
     font-size: 1.2em;
+    border: 2px solid #F5F5F5;
+}
+#ContenuPageMenuChic{
+    background-color: $backgroundMenuChic;
+}
+#ContenuPageMenuEnchantee{
+    background-color: $backgroundMenuEnchantee;
+}
+#ContenuPageMenuDelice{
+    background-color: $backgroundMenuDelice;
+}
+#ContenuPageMenuGout{
+    background-color: $backgroundMenuGout;
 }
 .imagePageMenuSeul{
     width: 15%;
