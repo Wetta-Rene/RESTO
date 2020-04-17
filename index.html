@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="OC - Développeur Web P3: Création d'un site internet pour un restaurant, mise en place des menus.">
+       <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="CSS/styles.css" />
         <title>Ohmyfood</title>
   
@@ -14,39 +15,42 @@
         Ohmyfood
     </header>
 <section>
-    <div id="contenairePage">
-        <a class="element-contenairePage" id="decoMenuEnchantee" href="menu-la-note-enchantee.html">
-                <p><img src="CSS/IMAGES/note.png" alt="note-musique" /></p>
-                <p>La note enchantée</p>
-                <p>MENU</p>
-        </a>
-        <a class="element-contenairePage" id="decoMenuChic" href="menu-le-chic-a-la-francaise.html">
+    <div id="contenairePageAccueil">
+        <div class="elementContenairePageAccueil" id="decoMenuEnchantee">
+            <a href="menu-la-note-enchantee.html">
+            <img src="CSS/IMAGES/note.png" alt="note-musique" />
+                <p>La note enchantée<br/>
+                    MENU</p>
+            </a>
+        </div>
+        <div class="elementContenairePageAccueil" id="decoMenuChic">
+            <a href="menu-le-chic-a-la-francaise.html">
             <span class="spanMenuChicTitre">Le chic à la Française</span><br />
                 <span class="spanMenuChicBas">Menu</span>
-        </a>
-        <a class="element-contenairePage" id="decoMenuPapille" href="menu-le-delice-des-papilles.html">
-            <span class="spanMenuPapilleTitre">Le délice des papilles</span>
-                <span class="spanMenuChicBas">Menu</span>
-        </a>   
-         <a class="element-contenairePage" id="decoMenuGout" href="menu-la-palette-du-gout.html">
-            <span class="spanMenuGoutTitre">La palette du goût</span>
-            <span class="spanMenuGoutBas">Menu</span>
-         </a>   
-
-
-
+            </a>
+        </div>
+        <div class="elementContenairePageAccueil" id="decoMenuPapille">
+            <a href="menu-le-delice-des-papilles.html">
+                <span class="spanMenuPapilleTitre">Le délice des papilles</span><br />
+                <span class="spanMenuPapilleBas">Menu</span>
+            </a>
+        </div>
+         <div class="elementContenairePageAccueil" id="decoMenuGout">
+            <a href="menu-la-palette-du-gout.html">
+                <span class="spanMenuGoutTitre">La palette du goût</span>
+                <br />
+                <span class="spanMenuGoutBas">Menu</span>
+             </a> 
+        </div>
     </div>
         <div id="contenaireBoutonProchainement">
             <span class="element1-boutonProchainement">Prochainement</span>
             <span class="loading"></span>
-
-        </div>
+       </div>
 </section>
 <footer>
-    <div id="contenuFooter">
         <p class="elementFooter"><a href="mentions-legales.html">Mentions légales</a></p>
         <p class="elementFooter"><a href="mailto:contact@ohmyfood.fr"> Contactez-nous </a></p>
-    </div>
 </footer>
  
 </body>
