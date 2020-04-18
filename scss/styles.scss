@@ -39,7 +39,7 @@ $fontFamilyEnchantee: 'Ma Shan Zheng', cursive;
     color: transparent;
 }
 @mixin zoomAccueil {
-    :hover{
+    &:hover{
     transition-duration: .3s;
     transform: scale(1.4);
     }
@@ -74,10 +74,10 @@ header{
 }
 .elementContenairePageAccueil{
     display: flex;
-    width: 20vh;
+    width: 24vh;
     height: 32vh;
-    margin: 4%;
-    font-size: 1.2em;
+    margin: 2%;
+    font-size: 1em;
     box-shadow: 4px 4px 0 0 $bordOmbreCarteMenu;
     box-shadow: 0 0 4px 4px $bordOmbreCarteMenu;
 }
@@ -116,7 +116,7 @@ header{
     .spanMenuDeliceBas{
         color: #156FFA;
         margin-top: 2%;
-        font-family: $fontFamilyDelice;
+        font-family: 'Reenie Beanie', cursive;
         }
 }
 #decoMenuGout{
@@ -330,38 +330,35 @@ nav a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 body {
-    width: 98%;
+    width: 80%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid green;
   }
 #contenairePageAccueil{
-    width: 80%;
+    width: 75%;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: space-around;
 }
+
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 body {
-    width: 98%;
+    width: 70%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid blue;
   }  
 #contenairePageAccueil{
-    width: 70%;
+    width: 60%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around;
 }
 .elementContenairePageAccueil{
     display: flex;
@@ -375,54 +372,49 @@ body {
 .bouton{
     width: 15%;
 }
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 body {
-    width: 98%;
+    width: 60%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid orange;
   }
 #contenairePageAccueil{
-    width: 60%;
+    width: 50%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around;
     }
 
 .elementContenairePageAccueil{
-    display: flex;
     width: 28vh;
-    height: 34vh;
+    height: 36vh;
     margin: 2%;
-    font-size: 1.2em;
-    box-shadow: 4px 4px 0 0 #B0BEC5;
-    box-shadow: 0 0 4px 4px #B0BEC5;
 }
 .bouton{
     width: 10%;
 }
+
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 body {
-    width: 98%;
+    width: 55%;
     margin: auto;
-    font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid pink;
   }
 #contenairePageAccueil{
     width: 50%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around;
+}
+.elementContenairePageAccueil{
+    width: 32vh;
+    height: 38vh;
+    margin: 2%;
+    font-size: 1.6em;
 }
 }
