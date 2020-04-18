@@ -6,10 +6,16 @@ $backgroundMenuChic: #FDF5FF;
 $backgroundMenuDelice: #F8F8F9;
 $backgroundMenuGout: #FDFFFD;
 $bordOmbreCarteMenu: #B0BEC5;
+$fontFamilyChic: 'Croissant One', cursive;
+$fontFamilyDelice: "Dancing Script";
+$fontFamilyGout: 'Kaushan Script', cursive;
+$fontFamilyEnchantee: 'Ma Shan Zheng', cursive;
 
-
+@mixin decoTitreEnchantee{
+    font-family: 'Ma Shan Zheng', cursive;
+}
 @mixin decoTitreChic{
-    font-family: "Dancing Script";
+    font-family: $fontFamilyChic;
     background-image: radial-gradient(circle at top left,#C77427, #8E57FC);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
@@ -17,15 +23,15 @@ $bordOmbreCarteMenu: #B0BEC5;
     color: transparent;
 }
 @mixin decoTitreDelice{
-    font-family: "Dancing Script";
-     background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
+    font-family: $fontFamilyDelice;
+     background-image: linear-gradient(to right,#1541DE, #55B3F8);   
      -webkit-background-clip: text;
      -moz-background-clip: text; 
       background-clip: text;
       color: transparent;
 }
 @mixin decoTitreGout{
-    font-family: "Dancing Script";
+    font-family: $fontFamilyGout;
     background-image: linear-gradient(to right, #38842C, #AFF76C);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
@@ -41,6 +47,7 @@ $bordOmbreCarteMenu: #B0BEC5;
 @mixin formMenuH1{
     text-align: center;
     font-size: 3em;
+    font-weight: normal;
 }
 body {
     width: 98%;
@@ -93,6 +100,7 @@ header{
     .spanMenuEnchanteeBas{
         color: #263238;
         margin: top;
+        font-family: $fontFamilyEnchantee;
     }
 }
 #decoMenuChic{
@@ -100,6 +108,7 @@ header{
     .spanMenuChicBas{
         color: #B75D1E;
         margin-top: 2%;
+        font-family: $fontFamilyChic;
         }
 }
 #decoMenuDelice{
@@ -107,7 +116,7 @@ header{
     .spanMenuDeliceBas{
         color: #156FFA;
         margin-top: 2%;
-        font-family: "Dancing Script";
+        font-family: $fontFamilyDelice;
         }
 }
 #decoMenuGout{
@@ -118,9 +127,14 @@ header{
         font-family: "Dancing Script";
         }
 }
+
 .spanMenuEnchanteeTitre{
     color: #263238;
     @include zoomAccueil;
+    @include decoTitreEnchantee;
+}
+#ContenuPageMenuEnchantee h1{
+    @include formMenuH1;
 }
 .spanMenuChicTitre{
     @include decoTitreChic;
@@ -232,24 +246,29 @@ nav a{
 }
 #ContenuPageMenuChic{
     background-color: $backgroundMenuChic;
+    font-family: $fontFamilyChic;
 }
 #ContenuPageMenuEnchantee{
     background-color: $backgroundMenuEnchantee;
+    font-family: 'Reenie Beanie', cursive;
 }
 #ContenuPageMenuDelice{
     background-color: $backgroundMenuDelice;
+    font-family: 'Croissant One', cursive;
 }
 #ContenuPageMenuPalette{
     background-color: $backgroundMenuGout;
-    font-family: "Caveat";
+    font-family: 'Kaushan Script', cursive;
     font-size: 1.5em;
 }
-.imagePageMenuSeul{
-    width: 15%;
+.imagePageMenuSeul, #basdepagemenu{
+    width: 50%;
     margin: auto;
+    margin-top: 5%;
+    text-align: center;
 }
-.imagePageMenuSeul img{
-    width: 100%;
+.imagePageMenuSeul img, #basdepagemenu img{
+    width: 30%;
 }
 .contenaireTitre-detailPageMenuSeul {
     text-align: center;
@@ -305,10 +324,6 @@ nav a{
     font-size: 2em;
 }
 
-.decoh1 h1{
-    text-decoration: underline;
-}
-
 
 
 
@@ -357,6 +372,9 @@ body {
     box-shadow: 4px 4px 0 0 #B0BEC5;
     box-shadow: 0 0 4px 4px #B0BEC5;
 }
+.bouton{
+    width: 15%;
+}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -376,7 +394,7 @@ body {
     flex-flow: wrap;
     justify-content: space-around;
     }
-} 
+
 .elementContenairePageAccueil{
     display: flex;
     width: 28vh;
@@ -385,6 +403,10 @@ body {
     font-size: 1.2em;
     box-shadow: 4px 4px 0 0 #B0BEC5;
     box-shadow: 0 0 4px 4px #B0BEC5;
+}
+.bouton{
+    width: 10%;
+}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
