@@ -27,10 +27,10 @@ header {
 /* line 75, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .elementContenairePageAccueil {
   display: flex;
-  width: 20vh;
+  width: 24vh;
   height: 32vh;
-  margin: 4%;
-  font-size: 1.2em;
+  margin: 2%;
+  font-size: 1em;
   box-shadow: 4px 4px 0 0 #B0BEC5;
   box-shadow: 0 0 4px 4px #B0BEC5; }
 
@@ -74,7 +74,7 @@ header {
   #decoMenuDelice .spanMenuDeliceBas {
     color: #156FFA;
     margin-top: 2%;
-    font-family: "Dancing Script"; }
+    font-family: 'Reenie Beanie', cursive; }
 
 /* line 122, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #decoMenuGout {
@@ -90,7 +90,7 @@ header {
   color: #263238;
   font-family: 'Ma Shan Zheng', cursive; }
   /* line 42, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .spanMenuEnchanteeTitre :hover {
+  .spanMenuEnchanteeTitre:hover {
     transition-duration: .3s;
     transform: scale(1.4); }
 
@@ -109,7 +109,7 @@ header {
   background-clip: text;
   color: transparent; }
   /* line 42, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .spanMenuChicTitre :hover {
+  .spanMenuChicTitre:hover {
     transition-duration: .3s;
     transform: scale(1.4); }
 
@@ -134,7 +134,7 @@ header {
   background-clip: text;
   color: transparent; }
   /* line 42, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .spanMenuDeliceTitre :hover {
+  .spanMenuDeliceTitre:hover {
     transition-duration: .3s;
     transform: scale(1.4); }
 
@@ -159,7 +159,7 @@ header {
   background-clip: text;
   color: transparent; }
   /* line 42, /Users/RENE/DWJ/RESTO/scss/styles.scss */
-  .spanMenuGoutTitre :hover {
+  .spanMenuGoutTitre:hover {
     transition-duration: .3s;
     transform: scale(1.4); }
 
@@ -370,14 +370,14 @@ nav a {
 @media only screen and (min-width: 600px) {
   /* line 332, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 98%;
+    width: 80%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid green; }
   /* line 339, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
-    width: 80%;
+    width: 75%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -386,22 +386,18 @@ nav a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 351, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 352, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 98%;
+    width: 70%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid blue; }
-  /* line 358, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 359, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around; }
-  /* line 366, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    width: 60%;
+    margin: auto; }
+  /* line 363, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .elementContenairePageAccueil {
     display: flex;
     width: 24vh;
@@ -410,56 +406,49 @@ nav a {
     font-size: 1.2em;
     box-shadow: 4px 4px 0 0 #B0BEC5;
     box-shadow: 0 0 4px 4px #B0BEC5; }
-  /* line 375, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 372, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .bouton {
     width: 15%; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 382, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 380, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 98%;
+    width: 60%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid orange; }
-  /* line 389, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 387, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
-    width: 60%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around; }
-  /* line 398, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    width: 50%;
+    margin: auto; }
+  /* line 392, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .elementContenairePageAccueil {
-    display: flex;
     width: 28vh;
-    height: 34vh;
-    margin: 2%;
-    font-size: 1.2em;
-    box-shadow: 4px 4px 0 0 #B0BEC5;
-    box-shadow: 0 0 4px 4px #B0BEC5; }
-  /* line 407, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+    height: 36vh;
+    margin: 2%; }
+  /* line 397, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .bouton {
     width: 10%; } }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 413, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 404, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
-    width: 98%;
+    width: 55%;
     margin: auto;
-    font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid pink; }
-  /* line 420, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 410, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
     width: 50%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around; } }
+    margin: auto; }
+  /* line 414, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  .elementContenairePageAccueil {
+    width: 32vh;
+    height: 38vh;
+    margin: 2%;
+    font-size: 1.6em; } }
 
 /*# sourceMappingURL=styles.css.map */
