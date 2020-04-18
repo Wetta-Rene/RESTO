@@ -5,7 +5,43 @@ $backgroundMenuEnchantee : #FADFDB;
 $backgroundMenuChic: #FDF5FF;
 $backgroundMenuDelice: #F8F8F9;
 $backgroundMenuGout: #FDFFFD;
+$bordOmbreCarteMenu: #B0BEC5;
 
+
+@mixin decoTitreChic{
+    font-family: "Dancing Script";
+    background-image: radial-gradient(circle at top left,#C77427, #8E57FC);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+@mixin decoTitreDelice{
+    font-family: "Dancing Script";
+     background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
+     -webkit-background-clip: text;
+     -moz-background-clip: text; 
+      background-clip: text;
+      color: transparent;
+}
+@mixin decoTitreGout{
+    font-family: "Dancing Script";
+    background-image: linear-gradient(to right, #38842C, #AFF76C);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+@mixin zoomAccueil {
+    :hover{
+    transition-duration: .3s;
+    transform: scale(1.4);
+    }
+}
+@mixin formMenuH1{
+    text-align: center;
+    font-size: 3em;
+}
 body {
     width: 98%;
     margin: auto;
@@ -35,8 +71,8 @@ header{
     height: 32vh;
     margin: 4%;
     font-size: 1.2em;
-    box-shadow: 4px 4px 0 0 #B0BEC5;
-    box-shadow: 0 0 4px 4px #B0BEC5;
+    box-shadow: 4px 4px 0 0 $bordOmbreCarteMenu;
+    box-shadow: 0 0 4px 4px $bordOmbreCarteMenu;
 }
 .elementContenairePageAccueil img{
     width: 20%;
@@ -58,7 +94,7 @@ header{
         color: #263238;
         margin: top;
     }
-    }
+}
 #decoMenuChic{
     background-color: $backgroundMenuChic;
     .spanMenuChicBas{
@@ -66,9 +102,9 @@ header{
         margin-top: 2%;
         }
 }
-#decoMenuPapille{
+#decoMenuDelice{
     background-color: $backgroundMenuDelice;
-    .spanMenuPapilleBas{
+    .spanMenuDeliceBas{
         color: #156FFA;
         margin-top: 2%;
         font-family: "Dancing Script";
@@ -84,56 +120,32 @@ header{
 }
 .spanMenuEnchanteeTitre{
     color: #263238;
+    @include zoomAccueil;
 }
-.spanMenuChicTitre, #ContenuPageMenuChic h1{
-    font-family: "Dancing Script";
-    background-image: radial-gradient(circle at top left,#C77427, #8E57FC);   
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    background-clip: text;
-    color: transparent;
-    font-weight: normal;
-    text-align: center;
+.spanMenuChicTitre{
+    @include decoTitreChic;
+    @include zoomAccueil;
 }
-
-.spanMenuPapilleTitre, #ContenuPageMenuDelice h1{
-    font-family: "Dancing Script";
-     background-image: radial-gradient(circle at bottom right,#3B99F9, #0F23D2);   
-     -webkit-background-clip: text;
-     -moz-background-clip: text; 
-      background-clip: text;
-      color: transparent;
-      font-weight: bolder;
-     text-align: center;
+#ContenuPageMenuChic h1{
+    @include decoTitreChic;
+    @include formMenuH1;
 }
-.spanMenuGoutTitre, #ContenuPageMenuPalette h1{
-    font-family: "Dancing Script";
-    background-image: linear-gradient(to right, #38842C, #AFF76C);   
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    background-clip: text;
-    color: transparent;
-    font-weight: normal;
-    text-align: center;
+.spanMenuDeliceTitre{
+    @include decoTitreDelice;
+    @include zoomAccueil;
 }
-
-.spanMenuEnchanteeTitre:hover{
-    transition-duration: .3s;
-    transform: scale(1.4);
+#ContenuPageMenuDelice h1{
+    @include decoTitreDelice;
+    @include formMenuH1;
 }
-.spanMenuChicTitre:hover{
-    transition-duration: .3s;
-    transform: scale(1.4);
+.spanMenuGoutTitre{
+    @include decoTitreGout;
+    @include zoomAccueil;
 }
-.spanMenuPapilleTitre:hover{
-    transition-duration: .3s;
-    transform: scale(1.4);
+#ContenuPageMenuPalette h1{
+    @include decoTitreGout;
+    @include formMenuH1;
 }
-.spanMenuGoutTitre:hover{
-    transition-duration: .3s;
-    transform: scale(1.4);
-}
-
 /*bouton prochainement */
 #contenaireBoutonProchainement{
     width: 100%;
@@ -188,7 +200,7 @@ footer{
 }
 .elementFooter:hover {
   -webkit-animation-name: wiggle;
-  -webkit-animation-duration: 500ms;
+  -webkit-animation-duration: 400ms;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-in-out;
 }
@@ -216,8 +228,7 @@ nav a{
 #ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
     width: 98%;
     margin: auto;
-    font-size: 1.2em;
-    border: 2px solid #F5F5F5;
+    border: 2px solid #B0BEC5;
 }
 #ContenuPageMenuChic{
     background-color: $backgroundMenuChic;
@@ -293,6 +304,13 @@ nav a{
     text-align: center;
     font-size: 2em;
 }
+
+.decoh1 h1{
+    text-decoration: underline;
+}
+
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
