@@ -337,27 +337,25 @@ body {
     border-top: 10px solid green;
   }
 #contenairePageAccueil{
-    width: 75%;
+    width: 80%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around;
 }
-
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 90%;
+}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 body {
-    width: 70%;
+    width: 80%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid blue;
   }  
 #contenairePageAccueil{
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
 .elementContenairePageAccueil{
@@ -372,7 +370,9 @@ body {
 .bouton{
     width: 15%;
 }
-
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 70%;
+}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -385,7 +385,7 @@ body {
     border-top: 10px solid orange;
   }
 #contenairePageAccueil{
-    width: 50%;
+    width: 90%;
     margin: auto;
     }
 
@@ -402,13 +402,13 @@ body {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 body {
-    width: 55%;
+    width: 70%;
     margin: auto;
     margin-top: 10px;
     border-top: 10px solid pink;
   }
 #contenairePageAccueil{
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 .elementContenairePageAccueil{
@@ -416,5 +416,8 @@ body {
     height: 38vh;
     margin: 2%;
     font-size: 1.6em;
+}
+#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+    width: 60%;
 }
 }
