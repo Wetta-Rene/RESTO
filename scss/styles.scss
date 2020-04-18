@@ -294,6 +294,25 @@ nav a{
     display: flex;
     flex-basis: 90%;
 }
+.element_contenaireTitre-detailPageMenuSeul:nth-child(2){
+position: relative;
+font-weight: bolder;
+}
+.element_contenaireTitre-detailPageMenuSeul:nth-child(2):after{
+  content: '';
+  width: 0; 
+  height: 3px;
+  display: block;
+  margin-top: 2px;
+  transition: width .3s ease;
+}
+ 
+.element_contenaireTitre-detailPageMenuSeul:nth-child(2):hover:after{
+  width: 100%;
+  left: 0;
+  background: red;
+}
+
 
 
 /* couleurs sur les pages */
