@@ -333,70 +333,90 @@ nav a {
   display: flex;
   flex-basis: 90%; }
 
+/* line 297, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element_contenaireTitre-detailPageMenuSeul:nth-child(2) {
+  position: relative;
+  font-weight: bolder; }
+
+/* line 301, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element_contenaireTitre-detailPageMenuSeul:nth-child(2):after {
+  content: '';
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 2px;
+  transition: width .3s ease; }
+
+/* line 310, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+.element_contenaireTitre-detailPageMenuSeul:nth-child(2):hover:after {
+  width: 100%;
+  left: 0;
+  background: red; }
+
 /* couleurs sur les pages */
-/* line 300, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 319, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie1 {
   color: #B75D1E; }
 
-/* line 303, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 322, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie2 {
   color: #935087; }
 
-/* line 306, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 325, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 .colorMenuChic-partie3 {
   color: #5A2FC0; }
 
 /*page mentions*/
-/* line 311, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 330, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions {
   padding: 1%; }
 
-/* line 314, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 333, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions h1 {
   font-size: 2.5em;
   font-weight: normal; }
 
-/* line 318, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 337, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions p {
   text-align: justify;
   font-size: 1.5em; }
 
-/* line 322, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+/* line 341, /Users/RENE/DWJ/RESTO/scss/styles.scss */
 #contenairePageMentions h3 {
   text-align: center;
   font-size: 2em; }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  /* line 332, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 351, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 80%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid green; }
-  /* line 339, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 358, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
     width: 80%;
     margin: auto; }
-  /* line 343, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 362, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuPalette, #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice {
     width: 90%; } }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 350, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 369, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 80%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid blue; }
-  /* line 357, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 376, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
     width: 90%;
     margin: auto; }
-  /* line 361, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 380, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .elementContenairePageAccueil {
     display: flex;
     width: 24vh;
@@ -405,54 +425,54 @@ nav a {
     font-size: 1.2em;
     box-shadow: 4px 4px 0 0 #B0BEC5;
     box-shadow: 0 0 4px 4px #B0BEC5; }
-  /* line 370, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 389, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .bouton {
     width: 15%; }
-  /* line 373, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 392, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuPalette, #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice {
     width: 70%; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 380, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 399, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 60%;
     margin: auto;
     font-size: 10px;
     margin-top: 10px;
     border-top: 10px solid orange; }
-  /* line 387, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 406, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
     width: 90%;
     margin: auto; }
-  /* line 392, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 411, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .elementContenairePageAccueil {
     width: 28vh;
     height: 36vh;
     margin: 2%; }
-  /* line 397, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 416, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .bouton {
     width: 10%; } }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 404, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 423, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   body {
     width: 70%;
     margin: auto;
     margin-top: 10px;
     border-top: 10px solid pink; }
-  /* line 410, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 429, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #contenairePageAccueil {
     width: 80%;
     margin: auto; }
-  /* line 414, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 433, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   .elementContenairePageAccueil {
     width: 32vh;
     height: 38vh;
     margin: 2%;
     font-size: 1.6em; }
-  /* line 420, /Users/RENE/DWJ/RESTO/scss/styles.scss */
+  /* line 439, /Users/RENE/DWJ/RESTO/scss/styles.scss */
   #ContenuPageMenuPalette, #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice {
     width: 60%; } }
 
