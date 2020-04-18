@@ -49,6 +49,24 @@ $fontFamilyEnchantee: 'Ma Shan Zheng', cursive;
     font-size: 3em;
     font-weight: normal;
 }
+@mixin soulignementLeftToRight_1{
+    position: relative;
+    &:after{
+        content: '';
+          width: 0; 
+          height: 3px;
+          display: block;
+          margin-top: 2px;
+          transition: width .3s ease; 
+    }
+}
+@mixin soulignementLeftToRight_2($colour){
+        &:hover:after{
+          width: 100%;
+          left: 0;
+          background: $colour;
+        }
+}
 body {
     width: 98%;
     margin: auto;
@@ -160,6 +178,22 @@ header{
     @include decoTitreGout;
     @include formMenuH1;
 }
+/*soulignement des titres avec la couleur choisie */
+#ContenuPageMenuEnchantee .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2){
+    font-weight: bolder;
+    @include soulignementLeftToRight_1;
+    @include soulignementLeftToRight_2(#000000);
+}
+#ContenuPageMenuPalette .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2){
+    font-weight: bolder;
+    @include soulignementLeftToRight_1;
+    @include soulignementLeftToRight_2(#48971F);
+}
+#ContenuPageMenuDelice .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2){
+    font-weight: bolder;
+    @include soulignementLeftToRight_1;
+    @include soulignementLeftToRight_2(#0570F3);
+}
 /*bouton prochainement */
 #contenaireBoutonProchainement{
     width: 100%;
@@ -239,10 +273,18 @@ nav a{
     margin-left: 4%; 
 }
 
-#ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
+#ContenuPageMenuPalette, #ContenuPageMenuChic,#ContenuPageMenuDelice{
     width: 98%;
     margin: auto;
     border: 2px solid #B0BEC5;
+    font-size: 1.2em;
+}
+/*police trop petite donc ajustement de la taille seul */
+#ContenuPageMenuEnchantee{
+    width: 98%;
+    margin: auto;
+    border: 2px solid #B0BEC5;
+    font-size: 1.4em; 
 }
 #ContenuPageMenuChic{
     background-color: $backgroundMenuChic;
@@ -294,36 +336,32 @@ nav a{
     display: flex;
     flex-basis: 90%;
 }
-.element_contenaireTitre-detailPageMenuSeul:nth-child(2){
-position: relative;
-font-weight: bolder;
-}
-.element_contenaireTitre-detailPageMenuSeul:nth-child(2):after{
-  content: '';
-  width: 0; 
-  height: 3px;
-  display: block;
-  margin-top: 2px;
-  transition: width .3s ease;
-}
- 
-.element_contenaireTitre-detailPageMenuSeul:nth-child(2):hover:after{
-  width: 100%;
-  left: 0;
-  background: red;
-}
-
 
 
 /* couleurs sur les pages */
 .colorMenuChic-partie1{
     color: #B75D1E;
+        .element_contenaireTitre-detailPageMenuSeul:nth-child(2){
+        font-weight: bolder;
+        @include soulignementLeftToRight_1;
+        @include soulignementLeftToRight_2(#B75D1E)
+        }
 }
 .colorMenuChic-partie2{
     color: #935087;
+        .element_contenaireTitre-detailPageMenuSeul:nth-child(2){
+        font-weight: bolder;
+        @include soulignementLeftToRight_1;
+        @include soulignementLeftToRight_2(#935087)
+        }
 }
 .colorMenuChic-partie3{
     color: #5A2FC0;
+        .element_contenaireTitre-detailPageMenuSeul:nth-child(2){
+        font-weight: bolder;
+        @include soulignementLeftToRight_1;
+        @include soulignementLeftToRight_2(#5A2FC0)
+        }
 }
 
 /*page mentions*/
