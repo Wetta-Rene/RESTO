@@ -70,8 +70,6 @@ body {
     width: 98%;
     margin: auto;
     font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid red;
   }
 header{
     padding: 3%;
@@ -94,8 +92,8 @@ header{
 }
 .elementContenairePageAccueil{
     display: flex;
-    width: 24vh;
-    height: 34vh;
+    width: 45%;
+    height: 36vh;
     margin: 2%;
     font-size: 1em;
     box-shadow: 4px 4px 0 0 $bordOmbreCarteMenu;
@@ -400,8 +398,6 @@ body {
     width: 80%;
     margin: auto;
     font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid green;
   }
 #contenairePageAccueil{
     width: 80%;
@@ -418,18 +414,16 @@ body {
     width: 80%;
     margin: auto;
     font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid blue;
   }  
 #contenairePageAccueil{
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 .elementContenairePageAccueil{
     display: flex;
-    width: 24vh;
-    height: 34vh;
-    margin: 4%;
+    width: 42%;
+    height: 32vh;
+    margin: 2%;
     font-size: 1.2em;
     box-shadow: 4px 4px 0 0 #B0BEC5;
     box-shadow: 0 0 4px 4px #B0BEC5;
@@ -448,11 +442,9 @@ body {
     width: 60%;
     margin: auto;
     font-size: 10px;
-    margin-top: 10px;
-    border-top: 10px solid orange;
   }
 #contenairePageAccueil{
-    width: 90%;
+    width: 80%;
     margin: auto;
     }
 
@@ -471,11 +463,9 @@ body {
 body {
     width: 70%;
     margin: auto;
-    margin-top: 10px;
-    border-top: 10px solid pink;
   }
 #contenairePageAccueil{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 .elementContenairePageAccueil{
@@ -486,5 +476,8 @@ body {
 }
 #ContenuPageMenuPalette,#ContenuPageMenuEnchantee, #ContenuPageMenuChic,#ContenuPageMenuDelice{
     width: 60%;
+}
+.bouton{
+    width: 15%;
 }
 }
