@@ -9,7 +9,7 @@ $bordOmbreCarteMenu: #B0BEC5;
 $fontFamilyChic: 'Croissant One', cursive;
 $fontFamilyDelice: "Dancing Script";
 $fontFamilyGout: 'Kaushan Script', cursive;
-$fontFamilyEnchantee: 'Ma Shan Zheng', cursive;
+$fontFamilyEnchantee: 'Noto Serif JP', serif;
 
 @mixin decoTitreEnchantee{
     font-family: 'Ma Shan Zheng', cursive;
@@ -285,6 +285,7 @@ nav a{
     margin: auto;
     border: 2px solid #B0BEC5;
     font-size: 1.4em; 
+    font-family: $fontFamilyEnchantee;
 }
 #ContenuPageMenuChic{
     background-color: $backgroundMenuChic;
