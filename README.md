@@ -1,3 +1,10 @@
-# RESTO
+**************************************************************
+## Logiciel / environnement
+- Bracket
+- Firefox 77.0.1
+- Mac OS Catalina / Version 10.15.5
 
-OC - Projet 3 de la formation Développeur Web
+## License
+WETTA RENE
+Projet 3 OpenClassrooms -  DEVELOPPEUR WEB - AVRIL - JUIN 2020
+**************************************************************
